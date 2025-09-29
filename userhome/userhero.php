@@ -328,7 +328,7 @@
     <div class="carousel">
       <div class="list">
         <div class="item">
-          <img src="../assets/img/Places/Parasnath_Hill.png" />
+          <img src="../assets/img/Places/Gangtok_Sikkim.png" />
           <div class="content">
             <div class="author">Jain Community</div>
             <div class="title">Parasnath Hill</div>
@@ -342,7 +342,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../assets/img/Places/Patratu_Valley.png" />
+          <img src="../assets/img/Places/Tsomgo_Lake_Sikkim.png" />
           <div class="content">
             <div class="author">Jharkhand Tourism</div>
             <div class="title">Patratu Valley</div>
@@ -356,7 +356,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../assets/img/Places/Netarhat.png" />
+          <img src="../assets/img/Places/Nathula_Pass_Sikkim.png" />
           <div class="content">
             <div class="author">Jharkhand Tourism</div>
             <div class="title">Netarhat</div>
@@ -370,7 +370,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="../assets/img/Places/Hundru_Falls.png" />
+          <img src="../assets/img/Places/Pelling_Sikkim.png" />
           <div class="content">
             <div class="author">Jharkhand Tourism</div>
             <div class="title">Hundru Falls</div>

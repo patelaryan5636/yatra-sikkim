@@ -350,39 +350,57 @@
               <span class="item-count"></span>
             </div>
           </div>
-          <div class="legend-item" data-category="temple">
+          <div class="legend-item" data-category="monastery">
             <div class="legend-icon" style="background: linear-gradient(135deg, #f97316, #ea580c)">
-              <i class="fas fa-om"></i>
+              <i class="fas fa-praying-hands"></i>
             </div>
             <div class="legend-text">
-              Temples & Religious Sites
+              Monasteries & Spiritual Sites
               <span class="item-count"></span>
             </div>
           </div>
           <div class="legend-item" data-category="wildlife">
             <div class="legend-icon" style="background: linear-gradient(135deg, #22c55e, #16a34a)">
-              <i class="fas fa-tree"></i>
+              <i class="fas fa-paw"></i>
             </div>
             <div class="legend-text">
-              Wildlife Sanctuaries
+              National Parks & Sanctuaries
               <span class="item-count"></span>
             </div>
           </div>
-          <div class="legend-item" data-category="waterfall">
+          <div class="legend-item" data-category="lake">
             <div class="legend-icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8)">
               <i class="fas fa-water"></i>
             </div>
             <div class="legend-text">
-              Waterfalls & Lakes
+              Lakes & Waterfalls
               <span class="item-count"></span>
             </div>
           </div>
-          <div class="legend-item" data-category="hill">
-            <div class="legend-icon" style="background: linear-gradient(135deg, #eab308, #ca8a04)">
+          <div class="legend-item" data-category="mountain">
+            <div class="legend-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2)">
               <i class="fas fa-mountain"></i>
             </div>
             <div class="legend-text">
-              Hills & Viewpoints
+              Mountain Peaks & Passes
+              <span class="item-count"></span>
+            </div>
+          </div>
+          <div class="legend-item" data-category="valley">
+            <div class="legend-icon" style="background: linear-gradient(135deg, #a855f7, #9333ea)">
+              <i class="fas fa-spa"></i>
+            </div>
+            <div class="legend-text">
+              Valleys & Hot Springs
+              <span class="item-count"></span>
+            </div>
+          </div>
+          <div class="legend-item" data-category="adventure">
+            <div class="legend-icon" style="background: linear-gradient(135deg, #eab308, #ca8a04)">
+              <i class="fas fa-hiking"></i>
+            </div>
+            <div class="legend-text">
+              Viewpoints & Adventure
               <span class="item-count"></span>
             </div>
           </div>
@@ -391,34 +409,7 @@
               <i class="fas fa-city"></i>
             </div>
             <div class="legend-text">
-              Major Cities
-              <span class="item-count"></span>
-            </div>
-          </div>
-          <div class="legend-item" data-category="industry">
-            <div class="legend-icon" style="background: linear-gradient(135deg, #6b7280, #4b5563)">
-              <i class="fas fa-industry"></i>
-            </div>
-            <div class="legend-text">
-              Industrial Areas
-              <span class="item-count"></span>
-            </div>
-          </div>
-          <div class="legend-item" data-category="education">
-            <div class="legend-icon" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed)">
-              <i class="fas fa-graduation-cap"></i>
-            </div>
-            <div class="legend-text">
-              Educational Institutions
-              <span class="item-count"></span>
-            </div>
-          </div>
-          <div class="legend-item" data-category="dam">
-            <div class="legend-icon" style="background: linear-gradient(135deg, #5ee0f0, #348892)">
-              <i class="fas fa-tint"></i>
-            </div>
-            <div class="legend-text">
-              Dams & Reservoirs
+              Major Cities & Towns
               <span class="item-count"></span>
             </div>
           </div>
@@ -454,26 +445,437 @@
     let defaultLayer;
     let isMapLocked = true; // FIX: New variable to track lock state
 
-    const jharkhandBounds = [
-      [21.95, 83.32],
-      [25.35, 87.57],
+    const sikkimBounds = [
+      [27.05, 88.0],
+      [28.1, 89.0],
     ];
 
     const mapData = {
-      // Your map data remains unchanged...
-      temple: [{ name: "Baidyanath Jyotirlinga", lat: 24.4833, lng: 86.7006, desc: "One of the 12 Jyotirlingas, a major pilgrimage site.", city: "Deoghar" }, { name: "Basukinath Temple", lat: 24.3667, lng: 87.1333, desc: "Revered temple for Lord Shiva, pilgrimage destination.", city: "Dumka" }, { name: "Jagannath Temple", lat: 23.3441, lng: 85.3096, desc: "Replica of the famous Puri Jagannath Temple.", city: "Ranchi" }, { name: "Pahari Mandir", lat: 23.3738, lng: 85.3342, desc: "Hilltop temple with panoramic city views.", city: "Ranchi" }, { name: "Maluti Temples", lat: 24.9167, lng: 87.3167, desc: "Group of 108 terracotta temples from the 17th century.", city: "Dumka" }, { name: "Chhinnamasta Temple", lat: 23.6333, lng: 85.8167, desc: "One of the 51 Shakti Peethas.", city: "Ramgarh" }, { name: "Surya Temple", lat: 23.2917, lng: 85.5348, desc: "Temple shaped like a huge chariot with 18 wheels.", city: "Ranchi" }, { name: "Harihar Dham", lat: 24.1667, lng: 85.8833, desc: "Home to the world's largest Shiva Linga.", city: "Giridih" }, { name: "Dewri Temple", lat: 23.275, lng: 85.7333, desc: "Ancient temple dedicated to Goddess Durga.", city: "Ranchi" }, { name: "Naulakha Mandir", lat: 24.4752, lng: 86.6853, desc: "Known for its architecture similar to the Ramakrishna Mission.", city: "Deoghar" }, { name: "Bindudham Temple", lat: 24.87, lng: 87.89, desc: "Pilgrimage site atop Binduwasni Hills.", city: "Sahebganj" }, { name: "Kapilnath Temple", lat: 23.1672, lng: 84.8055, desc: "Historic temple built by King Ram Shah in 1643.", city: "Gumla" }, { name: "Rankini Temple", lat: 22.5693, lng: 86.4172, desc: "A famous temple known for its sacrificial rituals.", city: "Jadugora" }, { name: "Bhuvaneshwari Temple", lat: 22.8021, lng: 86.1953, desc: "A hilltop temple providing a view of the entire Jamshedpur city.", city: "Jamshedpur" }],
-      wildlife: [{ name: "Betla National Park", lat: 23.8667, lng: 84.1833, desc: "Tiger reserve and elephant sanctuary with historic Palamau Forts.", city: "Palamau" }, { name: "Dalma Wildlife Sanctuary", lat: 22.85, lng: 86.1167, desc: "Famous for its large elephant herds and diverse wildlife.", city: "Jamshedpur" }, { name: "Hazaribagh Wildlife Sanctuary", lat: 24.0167, lng: 85.35, desc: "Sanctuary known for its diverse flora and fauna.", city: "Hazaribagh" }, { name: "Topchanchi Wildlife Sanctuary", lat: 23.9333, lng: 86.25, desc: "Home to a large lake and various bird species.", city: "Dhanbad" }, { name: "Koderma Wildlife Sanctuary", lat: 24.4667, lng: 85.5833, desc: "Sanctuary in a mica-rich region.", city: "Koderma" }, { name: "Mahuadanr Wolf Sanctuary", lat: 23.475, lng: 84.095, desc: "Dedicated sanctuary for the Indian Wolf.", city: "Latehar" }, { name: "Birsa Zoological Park", lat: 23.42, lng: 85.34, desc: "A large zoological park located near Ranchi.", city: "Ranchi" }],
-      waterfall: [{ name: "Hundru Falls", lat: 23.4167, lng: 85.5833, desc: "Spectacular 320-foot high waterfall on the Subarnarekha River.", city: "Ranchi" }, { name: "Jonha Falls", lat: 23.2833, lng: 85.4667, desc: "Known as Gautamdhara Falls, a popular picnic spot.", city: "Ranchi" }, { name: "Dassam Falls", lat: 23.3333, lng: 85.6167, desc: "A beautiful cascade waterfall of the Kanchi River.", city: "Ranchi" }, { name: "Hirni Falls", lat: 22.95, lng: 85.0833, desc: "A serene waterfall nestled in the midst of a forest.", city: "West Singhbhum" }, { name: "Panchghagh Falls", lat: 23.275, lng: 85.2583, desc: "Five-stream waterfall, a perfect family outing spot.", city: "Khunti" }, { name: "Lodh Falls", lat: 23.44, lng: 84.288, desc: "Highest waterfall in Jharkhand, also known as Burhaghagh Falls.", city: "Latehar" }, { name: "Usri Falls", lat: 24.1833, lng: 86.3167, desc: "A scenic waterfall located near the Parasnath Hills.", city: "Giridih" }, { name: "Sita Falls", lat: 23.333, lng: 85.5, desc: "A charming waterfall and popular tourist spot.", city: "Ranchi" }, { name: "Sadni Falls", lat: 23.35, lng: 84.8, desc: "A beautiful horseshoe-shaped waterfall.", city: "Gumla" }],
-      hill: [{ name: "Netarhat", lat: 23.4667, lng: 84.25, desc: "Known as the 'Queen of Chotanagpur' for its scenic beauty.", city: "Latehar" }, { name: "Parasnath Hill", lat: 23.9667, lng: 86.1667, desc: "The highest peak in Jharkhand and a major Jain pilgrimage site.", city: "Giridih" }, { name: "Trikut Pahar", lat: 24.4444, lng: 86.6713, desc: "A famous hill with a ropeway and scenic views.", city: "Deoghar" }, { name: "Tagore Hill", lat: 23.3667, lng: 85.3167, desc: "Historical hill where Rabindranath Tagore stayed.", city: "Ranchi" }, { name: "Dalma Hills", lat: 22.85, lng: 86.1167, desc: "Part of the Dalma Wildlife Sanctuary, offering great trekking.", city: "Jamshedpur" }, { name: "Patratu Valley", lat: 23.42, lng: 85.29, desc: "A beautiful valley known for its winding roads and scenic views.", city: "Ramgarh" }, { name: "Canary Hill", lat: 24.0167, lng: 85.35, desc: "A popular tourist spot offering panoramic views of Hazaribagh.", city: "Hazaribagh" }],
-      city: [{ name: "Ranchi", lat: 23.3441, lng: 85.3096, desc: "The capital city and a major educational and cultural hub.", city: "Ranchi" }, { name: "Jamshedpur", lat: 22.8046, lng: 86.2029, desc: "India's first planned industrial city, known as the Steel City.", city: "East Singhbhum" }, { name: "Dhanbad", lat: 23.7957, lng: 86.4304, desc: "The 'Coal Capital of India' due to its vast coal reserves.", city: "Dhanbad" }, { name: "Bokaro", lat: 23.6693, lng: 86.1511, desc: "A major industrial city known for its steel plant.", city: "Bokaro" }, { name: "Deoghar", lat: 24.4833, lng: 86.7006, desc: "A significant religious tourism center and pilgrimage site.", city: "Deoghar" }, { name: "Hazaribagh", lat: 23.99, lng: 85.35, desc: "Known as the 'City of a Thousand Gardens' with beautiful lakes.", city: "Hazaribagh" }, { name: "Dumka", lat: 24.27, lng: 87.25, desc: "The sub-capital of Jharkhand with rich cultural heritage.", city: "Dumka" }],
-      industry: [{ name: "Tata Steel Plant", lat: 22.7739, lng: 86.1463, desc: "Asia's first integrated steel plant.", city: "Jamshedpur" }, { name: "Bokaro Steel Plant", lat: 23.6693, lng: 86.1511, desc: "One of the largest steel plants in India.", city: "Bokaro" }, { name: "HEC (Heavy Engineering Corp)", lat: 23.376, lng: 85.293, desc: "Major heavy machinery manufacturing unit.", city: "Ranchi" }, { name: "Jharia Coalfield", lat: 23.75, lng: 86.4, desc: "The largest coalfield in India.", city: "Dhanbad" }],
-      education: [{ name: "IIT Dhanbad", lat: 23.8103, lng: 86.441, desc: "Premier engineering institute (ISM).", city: "Dhanbad" }, { name: "BIT Mesra", lat: 23.4142, lng: 85.4405, desc: "Birla Institute of Technology, a top private engineering college.", city: "Ranchi" }, { name: "Ranchi University", lat: 23.3441, lng: 85.3096, desc: "Major state university.", city: "Ranchi" }, { name: "NIT Jamshedpur", lat: 22.8016, lng: 86.1418, desc: "National Institute of Technology.", city: "Jamshedpur" }, { name: "XLRI Jamshedpur", lat: 22.8021, lng: 86.1953, desc: "Top private business school.", city: "Jamshedpur" }],
-      dam: [{ name: "Maithon Dam", lat: 23.7845, lng: 86.8406, desc: "Hydroelectric dam on the Barakar River.", city: "Dhanbad" }, { name: "Panchet Dam", lat: 23.6599, lng: 86.7865, desc: "Large dam on the Damodar River.", city: "Dhanbad" }, { name: "Kanke Dam", lat: 23.401, lng: 85.319, desc: "A scenic dam with a popular rock garden nearby.", city: "Ranchi" }, { name: "Patratu Dam", lat: 23.4338, lng: 85.2863, desc: "A beautiful lake and dam with a thermal power station.", city: "Ramgarh" }, { name: "Dimna Lake", lat: 22.812, lng: 86.279, desc: "An artificial reservoir and popular picnic spot.", city: "Jamshedpur" }, { name: "Getalsud Dam", lat: 23.4735, lng: 85.5255, desc: "Reservoir on the Subarnarekha River.", city: "Ranchi" }, { name: "Konar Dam", lat: 23.729, lng: 85.83, desc: "A dam on the Konar River.", city: "Hazaribagh" }],
+      monastery: [
+        {
+          name: "Rumtek Monastery",
+          lat: 27.3168,
+          lng: 88.5834,
+          desc: "The largest and most important monastery in Sikkim, a center of the Kagyu lineage.",
+          city: "Gangtok",
+        },
+        {
+          name: "Pemayangtse Monastery",
+          lat: 27.3411,
+          lng: 88.2393,
+          desc: "One of the oldest and most important monasteries of the Nyingma order.",
+          city: "Pelling",
+        },
+        {
+          name: "Tashiding Monastery",
+          lat: 27.274,
+          lng: 88.243,
+          desc: "A significant and sacred Buddhist monastery.",
+          city: "Gyalshing",
+        },
+        {
+          name: "Lachen Monastery",
+          lat: 27.701,
+          lng: 88.544,
+          desc: "A small monastery with serene surroundings.",
+          city: "Lachen",
+        },
+        {
+          name: "Phodong Monastery",
+          lat: 27.468,
+          lng: 88.528,
+          desc: "A beautiful monastery located on a hilltop, north of Gangtok.",
+          city: "Phodong",
+        },
+        {
+          name: "Dubdi Monastery",
+          lat: 27.369,
+          lng: 88.291,
+          desc: "Sikkim's first monastery, established in 1701.",
+          city: "Yuksom",
+        },
+        {
+          name: "Enchey Monastery",
+          lat: 27.33,
+          lng: 88.62,
+          desc: "A vibrant monastery with a unique pagoda-style structure.",
+          city: "Gangtok",
+        },
+        {
+          name: "Rinchenpong Monastery",
+          lat: 27.28,
+          lng: 88.24,
+          desc: "A beautiful monastery offering a panoramic view of the Kanchenjunga.",
+          city: "Kaluk",
+        },
+        {
+          name: "Do Drul Chorten Stupa",
+          lat: 27.329,
+          lng: 88.618,
+          desc: "A large stupa with 108 Mani Lhakor (prayer wheels).",
+          city: "Gangtok",
+        },
+        {
+          name: "Gyalshing Monastery",
+          lat: 27.279,
+          lng: 88.261,
+          desc: "A newly built monastery with a peaceful ambiance.",
+          city: "Gyalshing",
+        },
+        {
+          name: "Sanga Choeling Monastery",
+          lat: 27.313,
+          lng: 88.204,
+          desc: "One of the oldest monasteries in Sikkim, accessible via a short hike.",
+          city: "Pelling",
+        },
+        {
+          name: "Labrang Monastery",
+          lat: 27.272,
+          lng: 88.239,
+          desc: "A serene monastery with intricate Tibetan artwork.",
+          city: "Gyalshing",
+        },
+        {
+          name: "Samdruptse Monastery",
+          lat: 27.199,
+          lng: 88.351,
+          desc: "Part of the Buddha Park complex, featuring a giant statue of Buddha.",
+          city: "Ravangla",
+        },
+        {
+          name: "Yuksom",
+          lat: 27.369,
+          lng: 88.225,
+          desc: "The first capital of Sikkim, a historic and spiritual hub.",
+          city: "West Sikkim",
+        },
+      ],
+      wildlife: [
+        {
+          name: "Khangchendzonga National Park",
+          lat: 27.606,
+          lng: 88.186,
+          desc: "A UNESCO World Heritage site, home to diverse flora and fauna, including the Red Panda.",
+          city: "Yuksom",
+        },
+        {
+          name: "Fambong Lho Wildlife Sanctuary",
+          lat: 27.341,
+          lng: 88.542,
+          desc: "Located near Gangtok, known for its rich birdlife and lush forests.",
+          city: "Gangtok",
+        },
+        {
+          name: "Maenam Wildlife Sanctuary",
+          lat: 27.338,
+          lng: 88.385,
+          desc: "A serene sanctuary with a rich variety of medicinal plants and animals.",
+          city: "Ravangla",
+        },
+        {
+          name: "Kyongnosla Alpine Sanctuary",
+          lat: 27.378,
+          lng: 88.766,
+          desc: "Home to high-altitude flora and fauna, including rare rhododendron species.",
+          city: "Tsomgo Lake",
+        },
+        {
+          name: "Shingba Rhododendron Sanctuary",
+          lat: 27.705,
+          lng: 88.667,
+          desc: "Known for its stunning variety of rhododendron species, especially in spring.",
+          city: "Lachung",
+        },
+        {
+          name: "Pangolakha Wildlife Sanctuary",
+          lat: 27.33,
+          lng: 88.85,
+          desc: "The largest wildlife sanctuary in Sikkim, connecting with Neora Valley National Park.",
+          city: "Pangolakha",
+        },
+      ],
+      lake: [
+        {
+          name: "Tsomgo Lake",
+          lat: 27.378,
+          lng: 88.766,
+          desc: "A sacred glacial lake located at an altitude of 12,310 feet.",
+          city: "Gangtok",
+        },
+        {
+          name: "Gurudongmar Lake",
+          lat: 28.02,
+          lng: 88.71,
+          desc: "One of the highest lakes in the world, revered by Buddhists and Sikhs.",
+          city: "Lachen",
+        },
+        {
+          name: "Khecheopalri Lake",
+          lat: 27.343,
+          lng: 88.196,
+          desc: "A sacred 'Wishing Lake' considered holy by both Buddhists and Hindus.",
+          city: "Yuksom",
+        },
+        {
+          name: "Kathok Lake",
+          lat: 27.371,
+          lng: 88.225,
+          desc: "A serene lake with historical and religious significance.",
+          city: "Yuksom",
+        },
+        {
+          name: "Menmecho Lake",
+          lat: 27.325,
+          lng: 88.834,
+          desc: "A stunning lake surrounded by high mountains, a source of the Rangpo River.",
+          city: "Zuluk",
+        },
+        {
+          name: "Lampokhari Lake",
+          lat: 27.13,
+          lng: 88.5,
+          desc: "An emerald-green lake known for its paddle boating facilities.",
+          city: "Aritar",
+        },
+        {
+          name: "Banjhakri Falls",
+          lat: 27.319,
+          lng: 88.571,
+          desc: "A scenic waterfall and recreational park with a theme based on shamanic legends.",
+          city: "Gangtok",
+        },
+        {
+          name: "Seven Sisters Waterfall",
+          lat: 27.42,
+          lng: 88.6,
+          desc: "A magnificent cascade of seven different waterfalls flowing over a wide cliff.",
+          city: "Gangtok",
+        },
+        {
+          name: "Kanchenjunga Falls",
+          lat: 27.359,
+          lng: 88.192,
+          desc: "A perennial waterfall, believed to originate from the glaciers of Mt. Kanchenjunga.",
+          city: "Pelling",
+        },
+      ],
+      mountain: [
+        {
+          name: "Kanchenjunga Peak",
+          lat: 27.7,
+          lng: 88.15,
+          desc: "The third highest mountain in the world, revered as the guardian deity of Sikkim.",
+          city: "West Sikkim",
+        },
+        {
+          name: "Nathu La Pass",
+          lat: 27.387,
+          lng: 88.828,
+          desc: "A high-altitude mountain pass connecting Sikkim with Tibet.",
+          city: "Gangtok",
+        },
+        {
+          name: "Chopta Valley",
+          lat: 27.818,
+          lng: 88.751,
+          desc: "A beautiful valley known for its alpine meadows and pristine beauty.",
+          city: "North Sikkim",
+        },
+        {
+          name: "Thangu Valley",
+          lat: 27.994,
+          lng: 88.706,
+          desc: "A valley at high altitude, a gateway to Gurudongmar Lake.",
+          city: "Lachen",
+        },
+        {
+          name: "Zemu Glacier",
+          lat: 27.712,
+          lng: 88.337,
+          desc: "The largest glacier in the Eastern Himalayas, located at the base of Mt. Kanchenjunga.",
+          city: "North Sikkim",
+        },
+      ],
+      valley: [
+        {
+          name: "Yumthang Valley",
+          lat: 27.77,
+          lng: 88.75,
+          desc: "Known as the 'Valley of Flowers', famous for its vast rhododendron forests.",
+          city: "Lachung",
+        },
+        {
+          name: "Lachung Valley",
+          lat: 27.683,
+          lng: 88.74,
+          desc: "A picturesque mountain village and a popular tourist destination.",
+          city: "Lachung",
+        },
+        {
+          name: "Zero Point (Yumesamdong)",
+          lat: 27.83,
+          lng: 88.79,
+          desc: "The last civilian motorable road, offering magnificent snow-covered views.",
+          city: "Lachung",
+        },
+        {
+          name: "Dzongu Valley",
+          lat: 27.56,
+          lng: 88.42,
+          desc: "A reserved area for the Lepcha people, a place of immense natural beauty.",
+          city: "Mangan",
+        },
+        {
+          name: "Reshi Hot Spring",
+          lat: 27.39,
+          lng: 88.61,
+          desc: "A natural hot spring with medicinal properties, located on the banks of the Rangeet river.",
+          city: "North Sikkim",
+        },
+        {
+          name: "Yume Samdong Hot Springs",
+          lat: 27.83,
+          lng: 88.79,
+          desc: "Natural hot springs located at Zero Point, known for their therapeutic properties.",
+          city: "Lachung",
+        },
+      ],
+      adventure: [
+        {
+          name: "Goechala",
+          lat: 27.653,
+          lng: 88.198,
+          desc: "A famous trek route offering breathtaking close-up views of Mt. Kanchenjunga.",
+          city: "Yuksom",
+        },
+        {
+          name: "Tsomgo Trek",
+          lat: 27.378,
+          lng: 88.766,
+          desc: "A trek around the sacred Tsomgo Lake with stunning mountain scenery.",
+          city: "Gangtok",
+        },
+        {
+          name: "Singshore Bridge",
+          lat: 27.28,
+          lng: 88.19,
+          desc: "The highest bridge in Sikkim and the second-highest gorge bridge in Asia.",
+          city: "Pelling",
+        },
+        {
+          name: "Temi Tea Garden",
+          lat: 27.24,
+          lng: 88.45,
+          desc: "Sikkim's only tea estate, offering scenic views and a chance to learn about tea processing.",
+          city: "Ravangla",
+        },
+        {
+          name: "Samdruptse Hill",
+          lat: 27.165,
+          lng: 88.358,
+          desc: "Features a giant statue of Guru Padmasambhava, providing a panoramic view of the region.",
+          city: "Namchi",
+        },
+        {
+          name: "Buddha Park (Ravangla)",
+          lat: 27.327,
+          lng: 88.225,
+          desc: "A massive statue of the Buddha, set in a peaceful garden with views of the Himalayas.",
+          city: "Ravangla",
+        },
+        {
+          name: "Tendong Hill",
+          lat: 27.23,
+          lng: 88.38,
+          desc: "A popular trekking spot with a small monastery at the top and a 360-degree view.",
+          city: "Namchi",
+        },
+        {
+          name: "Dzongri La",
+          lat: 27.625,
+          lng: 88.14,
+          desc: "A high-altitude viewpoint on the Goechala trek, offering stunning views of Kanchenjunga.",
+          city: "Yuksom",
+        },
+        {
+          name: "Baba Harbhajan Singh Mandir",
+          lat: 27.388,
+          lng: 88.828,
+          desc: "A shrine dedicated to an Indian Army soldier, a pilgrimage site near Nathu La.",
+          city: "Gangtok",
+        },
+      ],
+      city: [
+        {
+          name: "Gangtok",
+          lat: 27.33,
+          lng: 88.62,
+          desc: "The capital and largest city of Sikkim, a hub for tourism and commerce.",
+          city: "East Sikkim",
+        },
+        {
+          name: "Pelling",
+          lat: 27.327,
+          lng: 88.225,
+          desc: "A popular hill station known for its magnificent views of the Kanchenjunga.",
+          city: "West Sikkim",
+        },
+        {
+          name: "Lachen",
+          lat: 27.7,
+          lng: 88.53,
+          desc: "A serene town and a base for exploring Northern Sikkim.",
+          city: "North Sikkim",
+        },
+        {
+          name: "Namchi",
+          lat: 27.165,
+          lng: 88.358,
+          desc: "Known for the world's largest statue of Guru Padmasambhava.",
+          city: "South Sikkim",
+        },
+        {
+          name: "Mangan",
+          lat: 27.52,
+          lng: 88.54,
+          desc: "The headquarters of North Sikkim, offering a serene environment.",
+          city: "North Sikkim",
+        },
+        {
+          name: "Gyalshing",
+          lat: 27.279,
+          lng: 88.261,
+          desc: "The administrative center of West Sikkim, a peaceful town.",
+          city: "West Sikkim",
+        },
+        {
+          name: "Lachung",
+          lat: 27.683,
+          lng: 88.74,
+          desc: "A scenic town and a gateway to Yumthang Valley.",
+          city: "North Sikkim",
+        },
+        {
+          name: "Ravangla",
+          lat: 27.327,
+          lng: 88.225,
+          desc: "A popular tourist destination with breathtaking views of the Himalayas.",
+          city: "South Sikkim",
+        },
+        {
+          name: "Singtam",
+          lat: 27.25,
+          lng: 88.42,
+          desc: "A small town and a major transport hub in Sikkim.",
+          city: "East Sikkim",
+        },
+      ],
     };
 
     function initMap() {
-      map = L.map("map").setView([23.6102, 85.2799], 7);
-      map.fitBounds(jharkhandBounds);
+      map = L.map("map").setView([27.5, 88.5], 8);
+      map.fitBounds(sikkimBounds);
 
       defaultLayer = L.tileLayer(
         "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -495,7 +897,7 @@
       markersLayer = L.layerGroup().addTo(map);
 
       // ✅ ADD THIS PART (Jharkhand border)
-      fetch("jharkhand.geojson")
+      fetch("sikkim.geojson")
         .then(response => response.json())
         .then(data => {
           const borderLayer = L.geoJSON(data, {
@@ -550,28 +952,26 @@
 
     function getMarkerColor(category) {
       const colors = {
-        temple: "#f97316",
+        monastery: "#f97316",
         wildlife: "#22c55e",
-        waterfall: "#3b82f6",
-        hill: "#eab308",
+        lake: "#3b82f6",
+        mountain: "#06b6d4",
+        valley: "#a855f7",
+        adventure: "#eab308",
         city: "#ef4444",
-        industry: "#6b7280",
-        education: "#8b5cf6",
-        dam: "#5EE0F0",
       };
       return colors[category] || "#64748b";
     }
 
     function getMarkerIcon(category) {
       const icons = {
-        temple: "fa-om",
-        wildlife: "fa-tree",
-        waterfall: "fa-water",
-        hill: "fa-mountain",
+        monastery: "fa-praying-hands",
+        wildlife: "fa-paw",
+        lake: "fa-water",
+        mountain: "fa-mountain",
+        valley: "fa-spa",
+        adventure: "fa-hiking",
         city: "fa-city",
-        industry: "fa-industry",
-        education: "fa-graduation-cap",
-        dam: "fa-tint",
       };
       return icons[category] || "fa-map-marker-alt";
     }
@@ -587,8 +987,8 @@
       const icon = getMarkerIcon(category);
       return L.divIcon({
         html: `<div class="custom-marker" style="width: ${s.width}px; height: ${s.height}px; background: ${color}; font-size: ${s.fontSize};">
-                      <i class="fas ${icon}"></i>
-                      </div>`,
+                    <i class="fas ${icon}"></i>
+                    </div>`,
         iconSize: [s.width, s.height],
         iconAnchor: [s.width / 2, s.height / 2],
         popupAnchor: [0, -s.height / 2],
@@ -605,19 +1005,19 @@
               icon: createCustomMarker(category),
             });
             const popupContent = `
-              <div class="popup-content">
-                <div class="popup-title">
-                  <i class="fas ${getMarkerIcon(
+                <div class="popup-content">
+                  <div class="popup-title">
+                    <i class="fas ${getMarkerIcon(
               category
             )}" style="color: ${getMarkerColor(category)};"></i>
-                  ${place.name}
-                </div>
-                <div class="popup-description">${place.desc}</div>
-                <div class="popup-category" style="background: ${getMarkerColor(
+                    ${place.name}
+                  </div>
+                  <div class="popup-description">${place.desc}</div>
+                  <div class="popup-category" style="background: ${getMarkerColor(
               category
             )};">${place.city}</div>
-              </div>
-            `;
+                </div>
+              `;
             marker.bindPopup(popupContent);
             markersLayer.addLayer(marker);
           });
@@ -626,7 +1026,7 @@
     }
 
     function resetMapView() {
-      map.fitBounds(jharkhandBounds);
+      map.fitBounds(sikkimBounds);
     }
 
     function toggleSatellite() {
