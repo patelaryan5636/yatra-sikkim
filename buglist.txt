@@ -1,0 +1,28 @@
+guidebookform : - 
+text bug : Fill in the details to reserve your guide and explore Narmada Rajpipla like never before!
+
+header :-  Booking option not working ✔️
+
+date input : user should not select the previous date.
+
+27-09-25
+
+image not load in Unveiling Jharkhand's Most Visited Wonders section.
+
+Quick links at footer : first 3 link is not reachable(Set path)
+ 
+start your business button not working correctly
+
+login page is not loading
+
+Explore Jharkhand section : 1st pic is not load(AI GENERATED ImAGES)
+
+28-9-25
+
+remove google login option in userregister
+
+
+
+
+ 
+

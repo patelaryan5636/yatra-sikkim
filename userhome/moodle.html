@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homestay Modal Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the modal */
+        .modal-backdrop {
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .modal-content {
+            transform: scale(0.95);
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .modal-open .modal-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+        
+        .gradient-header {
+            background: linear-gradient(135deg, #4a90e2, #67b2ff);
+        }
+        
+        .amenity-check {
+            background-color: #10b981;
+        }
+        
+        .modal-shadow {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .btn-gradient {
+            background: linear-gradient(135deg, #4a90e2, #67b2ff);
+        }
+        
+        .btn-gradient:hover {
+            background: linear-gradient(135deg, #3a7bc8, #5aa3ff);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Main Page Content -->
+    <div class="min-h-screen flex items-center justify-center p-4">
+        <div class="text-center space-y-8">
+            <div class="space-y-4">
+                <h1 class="text-4xl font-bold text-gray-800">
+                    Beautiful Modal Demo
+                </h1>
+                <p class="text-lg text-gray-600 max-w-md mx-auto">
+                    Click the button below to see the homestay modal with blur backdrop and smooth animations
+                </p>
+            </div>
+
+            <!-- Open Modal Button -->
+            <button 
+                id="openModalBtn"
+                class="btn-gradient text-white font-semibold px-8 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover-scale"
+            >
+                Open Homestay Details
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Backdrop -->
+    <div id="modalBackdrop" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black bg-opacity-50 modal-backdrop">
+        <!-- Modal Content -->
+        <div id="modalContent" class="modal-content relative w-full max-w-lg bg-white rounded-xl modal-shadow">
+            <!-- Header -->
+            <div class="gradient-header rounded-t-xl p-6 text-white relative">
+                <!-- Close Button -->
+                <button 
+                    id="closeModalBtn"
+                    class="absolute top-4 right-4 p-2 rounded-full hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
+                    aria-label="Close modal"
+                >
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+                
+                <h2 class="text-xl font-bold mb-2">Salakha Homestay</h2>
+                <div class="flex items-center gap-2 text-white text-opacity-90">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span class="text-sm">Okhrey 10th mile west Sikkim, India</span>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="p-6">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-5 h-5 bg-blue-500 rounded-sm flex items-center justify-center">
+                        <div class="w-2 h-2 bg-white rounded-full"></div>
+                    </div>
+                    <h3 class="font-semibold text-gray-800">Amenities</h3>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <!-- Amenities List -->
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Single Bed</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Double Bed</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">King Bed</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Parking</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Free Parking</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Vallet Parking</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">24/7</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 group">
+                        <div class="flex-shrink-0 w-5 h-5 rounded-sm amenity-check flex items-center justify-center">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-200">Laundry & Dry Cleaning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get DOM elements
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const modalBackdrop = document.getElementById('modalBackdrop');
+        const modalContent = document.getElementById('modalContent');
+
+        // Open modal function
+        function openModal() {
+            modalBackdrop.classList.remove('hidden');
+            modalBackdrop.classList.add('flex');
+            // Add animation class after a brief delay
+            setTimeout(() => {
+                modalBackdrop.classList.add('modal-open');
+            }, 10);
+        }
+
+        // Close modal function
+        function closeModal() {
+            modalBackdrop.classList.remove('modal-open');
+            // Hide modal after animation completes
+            setTimeout(() => {
+                modalBackdrop.classList.add('hidden');
+                modalBackdrop.classList.remove('flex');
+            }, 300);
+        }
+
+        // Event listeners
+        openModalBtn.addEventListener('click', openModal);
+        closeModalBtn.addEventListener('click', closeModal);
+
+        // Close modal when clicking outside of it
+        modalBackdrop.addEventListener('click', function(e) {
+            if (e.target === modalBackdrop) {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !modalBackdrop.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
