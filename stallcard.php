@@ -78,7 +78,7 @@
     <p class="text-gray-600 text-xl font-serif px-20">Bring your business to the digital world and connect with
       customers who
       appreciate heritage, craftsmanship, and tradition. Whether you specialize in handmade art, cultural treasures, or
-      timeless creations, showcase your shop online and let the world experience the essence of Jharkhand through your
+      timeless creations, showcase your shop online and let the world experience the essence of Sikkim through your
       unique offerings.</p>
 
     <div class="flex justify-center items-center  gap-5  mb-16 font-serif">
@@ -131,7 +131,7 @@
             <i class="fas fa-user mr-2"></i>Owner
           </div>
           <div class="px-3 py-3 mt-3 bg-purple-100 h-6  text-gray-700 font-medium rounded-lg  flex items-center">
-            <i class="fas fa-map-marker-alt mr-2"></i>JharKhand
+            <i class="fas fa-map-marker-alt mr-2"></i>Sikkim
           </div>
         </div>
         <div class=" font-serif mt-5">

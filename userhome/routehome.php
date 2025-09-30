@@ -64,7 +64,7 @@
             Find Your Route
           </h1>
           <p class="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto">
-            Easily discover the best way to reach Jharkhand from your current
+            Easily discover the best way to reach Sikkim from your current
             location. Real-time updates, scenic suggestions, and safety tips
             included!
           </p>
