@@ -22,7 +22,13 @@
             
             <ul class="nav user-menu">
                 <div>
-                    <span class="user-img"><img style="width: 100px; margin-top: 7px;" src="../userhome/sih-logo.png" alt="img"></span>
+                    <span class="user-img"><img style="width: 55px; margin-right: 10px; margin-top: 7px;" src="../assets/img/sikkimtourism-logo.png" alt="img"></span>
+                </div>
+                <div>
+                    <span class="user-img"><img style="width: 55px; margin-right: 10px; margin-top: 7px;" src="../assets/img/sunawlo-sikkim-logo.jpg" alt="img"></span>
+                </div>
+                <div>
+                    <span class="user-img"><img style="width: 120px; margin-top: 7px;" src="../userhome/sih-logo.png" alt="img"></span>
                 </div>
 
 
