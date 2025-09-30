@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="Logo_Title.png">
-    <title>Contact Us - Jharkhand Tourism</title>
+    <title>Contact Us - Sikkim Tourism</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -78,11 +78,11 @@
       <!-- Header Section -->
       <div class="text-center mb-8">
         <h1 class="text-4xl md:text-5xl font-bold text-[#648383] mb-4">
-          🏔️ Discover Jharkhand with Us
+          🏔️ Discover Sikkim with Us
         </h1>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto">
           Your gateway to the mineral-rich land of waterfalls, forests, and
-          vibrant tribal culture. We're here to make your Jharkhand adventure
+          vibrant tribal culture. We're here to make your Sikkim adventure
           unforgettable!
         </p>
       </div>
@@ -91,7 +91,7 @@
         <div class="card rounded-3xl p-8">
           <div class="text-center mb-6">
             <h2 class="text-2xl font-bold text-[#648383] mb-3">
-              Connect with Jharkhand Tourism
+              Connect with Sikkim Tourism
             </h2>
             <p class="text-gray-600">
               From majestic waterfalls to ancient temples, we're your local
@@ -109,13 +109,13 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-[#648383] mb-2">
-                    Jharkhand Tourism Office
+                    Sikkim Tourism Office
                   </h3>
                   <p class="text-gray-600 leading-relaxed">
                     Tourism Directorate<br />
-                    Government of Jharkhand<br />
+                    Government of Sikkim<br />
                     HEC Township, Dhurwa<br />
-                    Ranchi, Jharkhand - 834004
+                    Ranchi, Sikkim - 834004
                   </p>
                 </div>
               </div>
@@ -139,11 +139,11 @@
                     </p>
                     <p class="flex items-center gap-2 text-gray-600">
                       <i class="fas fa-envelope text-[#94c4c4]"></i>
-                      tourism@jharkhand.gov.in
+                      tourism@Sikkim.gov.in
                     </p>
                     <p class="flex items-center gap-2 text-gray-600">
                       <i class="fas fa-globe text-[#94c4c4]"></i>
-                      www.jharkhandtourism.gov.in
+                      www.Sikkimtourism.gov.in
                     </p>
                     <p class="flex items-center gap-2 text-gray-600">
                       <i class="fas fa-clock text-[#94c4c4]"></i>
@@ -167,11 +167,11 @@
                   </h3>
                   <p class="text-gray-600 mb-2">
                     Connect with certified local tour guides and operators for
-                    authentic Jharkhand experiences:
+                    authentic Sikkim experiences:
                   </p>
                   <p class="flex items-center gap-2 text-gray-600">
                     <i class="fas fa-envelope text-[#94c4c4]"></i>
-                    guides@jharkhandtourism.gov.in
+                    guides@Sikkimtourism.gov.in
                   </p>
                 </div>
               </div>
@@ -252,7 +252,7 @@
             class="text-2xl font-semibold text-[#648383] mb-6 flex items-center gap-2"
           >
             <i class="fas fa-paper-plane"></i>
-            Plan Your Jharkhand Journey
+            Plan Your Sikkim Journey
           </h2>
           <form action="contactus_process.php" method="post" class="space-y-6" id="contactForm">
             <div>
@@ -394,12 +394,12 @@
               class="w-full bg-[#94c4c4] hover:bg-[#648383] text-white font-medium py-3 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-2"
             >
               <i class="fas fa-compass"></i>
-              Start Planning My Jharkhand Trip
+              Start Planning My Sikkim Trip
             </button>
 
             <div id="successMessage" class="success-message">
               <i class="fas fa-check-circle"></i>
-              Thank you for your interest in Jharkhand! We'll get back to you
+              Thank you for your interest in Sikkim! We'll get back to you
               within 24 hours with personalized recommendations.
             </div>
           </form>

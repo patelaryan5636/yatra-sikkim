@@ -284,7 +284,7 @@
             id="text"
             class="text-6xl md:text-8xl uppercase px-20 font-extrabold tracking-widest leading-tight text-gray-600"
           >
-            Discover Jharkhand with Expert Guides
+            Discover Sikkim with Expert Guides
           </h1>
         </div>
         <p
