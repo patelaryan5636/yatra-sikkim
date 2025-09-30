@@ -49,28 +49,21 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img
-                  src="../assets/img/Places/Hemant_Soren_CM.png"
+                  src="../assets/img/Govt/SHRI PREM SINGH TAMANG.png"
                   class="w-full h-full object-cover"
                   alt="Festival 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="./img/Vijaya_IAS.png"
+                  src="../assets/img/Govt/SHRI PRAKASH CHETTRI.jpg"
                   class="w-full h-full object-cover"
                   alt="Festival 2"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="./img/Arun_kumar.png"
-                  class="w-full h-full object-cover"
-                  alt="Festival 3"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./img/Manoj_kumar.png"
+                  src="../assets/img/Govt/SHRI LUKENDRA RASAILY.jpg"
                   class="w-full h-full object-cover"
                   alt="Festival 3"
                 />
@@ -98,11 +91,6 @@
         date: "Chairman, Sikkim Tourism Development Corporation (STDC)",
         desc: "He leads the STDC, the primary body for operating state-run tourism infrastructure like hotels, transport, and tour packages. His focus is on improving service quality and developing new tourism products to attract diverse travelers.",
       },
-      {
-        title: "SHRI MARCUS P. RAI",
-        date: "Director, Tourism & Civil Aviation Department",
-        desc: "He manages the operational aspects of the tourism department, including marketing campaigns, permit issuance for protected areas, and coordination with travel industry stakeholders to ensure smooth and well-regulated tourism activities.",
-      }
     ];
 
       let currentIndex = 0;

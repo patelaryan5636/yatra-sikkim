@@ -52,9 +52,7 @@
         <p
           class="text-[#395b64] text-xs sm:text-sm font-medium mb-4 max-w-2xl mx-auto"
         >
-          Become a Local Business Owner and Grow with Jharkhand's Tourism
-          Revolution. Showcase your local products, services, and cultural
-          offerings to thousands of visitors.
+          Partner with Us and Thrive in Sikkim's Growing Tourism Sector. Showcase your authentic homestays, local handicrafts, and unique cultural experiences to travelers from across the globe.
         </p>
         <div
           class="flex flex-col sm:flex-row justify-center items-center gap-2 mb-4"

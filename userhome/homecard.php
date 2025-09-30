@@ -232,7 +232,7 @@
       </h1>
       <div class="card__container">
       <article class="card__article">
-        <img src="../assets/img/Places/Tsomgo_Lake_Sikkim.png" alt="image" class="card__img" />
+        <img src="../assets/img/Places/Tsomgo_Lake_Cartoon.png" alt="image" class="card__img" />
 
         <div class="card__data">
           <span class="card__description">Tsomgo Lake, East Sikkim, Sikkim</span>
@@ -242,7 +242,7 @@
       </article>
 
       <article class="card__article">
-        <img src="../assets/img/Places/Gangtok_Sikkim.png" alt="image" class="card__img" />
+        <img src="../assets/img/Places/Gangtok_Cartoon.png" alt="image" class="card__img" />
         <div class="card__data">
           <span class="card__description">Rumtek Monastery, Gangtok, Sikkim</span>
           <h2 class="card__title">Find Peace at Rumtek Monastery</h2>
@@ -251,7 +251,7 @@
       </article>
 
       <article class="card__article">
-        <img src="../assets/img/Places/Pelling_Sikkim.png" alt="image" class="card__img" />
+        <img src="../assets/img/Places/Pelling_Cartoon.png" alt="image" class="card__img" />
 
         <div class="card__data">
           <span class="card__description">Pelling, West Sikkim, Sikkim</span>

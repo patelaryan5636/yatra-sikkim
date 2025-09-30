@@ -16,9 +16,8 @@
               <img src="yatra.png" alt="Logo" class="h-20 w-auto" />
             </div>
             <p class="text-[#527277] text-sm leading-relaxed text-justify">
-              Discover Heritage, Culture & Adventure – All in One Place
-              Empowering travelers and locals through a digital gateway to
-              Jharkhand's history, nature, festivals, and economic growth.
+              Discover Monasteries, Majestic Peaks & Culture – All in One Place 
+Your digital gateway to the heart of the Himalayas, connecting travelers and locals to Sikkim's ancient monasteries, pristine landscapes, vibrant festivals, and sustainable growth.
             </p>
             <div class="flex space-x-3 mt-2 items-center ml-2">
               <a
@@ -132,8 +131,7 @@
                   class="fas fa-map-marker-alt mt-1 text-lg text-[#395b64] group-hover:text-gray-700"
                 ></i>
                 <span class="hover:text-gray-700"
-                  >Tribal Heritage Plaza, Morabadi, Ranchi, Jharkhand, India –
-                  393145</span
+                  >Paryatan Bhawan, Tadong, Gangtok, Sikkim, India – 737102</span
                 >
               </li>
               <li
@@ -142,7 +140,7 @@
                 <i
                   class="fas fa-phone-alt text-lg text-[#395b64] group-hover:text-gray-700"
                 ></i>
-                <span class="hover:text-gray-700">+91 91024 03884</span>
+                <span class="hover:text-gray-700">+91 35922 09090</span>
               </li>
               <li
                 class="flex items-center space-x-3 group hover:text-[#395b64] transition-all duration-300"
