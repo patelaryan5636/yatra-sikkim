@@ -29,13 +29,13 @@
     ?>
     <div class="max-w-7xl mx-auto px-6 py-12">
       <h1 class="title font-bold text-gray-700 mb-2 text-5xl text-center">
-        💼 Build & Thrive: Business Opportunities in Rajpipla
+        💼 Build & Thrive: Business Opportunities in Sikkim
       </h1>
       <p class="text-gray-600 text-xl font-serif px-20 text-center">
         Empowering local talent and entrepreneurs. Explore new paths to growth
         through curated business opportunities, job openings, and skill-based
         initiatives that uplift communities and celebrate the spirit of
-        Rajpipla's heritage and innovation.
+        Sikkim's heritage and innovation.
       </p>
 
       <div class="flex justify-center items-center gap-5 mb-16 font-serif">

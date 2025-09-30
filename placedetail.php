@@ -235,7 +235,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                         Parasnath Hill
                     </h1>
                     <p class="text-lg md:text-lg text-sm mb-8 text-gray-200 max-w-4xl leading-relaxed">
-                        Parasnath Hill in West Jharkhand famous not just for tallest statue of Guru Padmasambhava at 137 feet but also, it has become famous for the glass skywalk that leads visitors to the statue. This glass skywalk offers thrilling views of the valley below and panoramic mountain vistas.
+                        Parasnath Hill in West Sikkim famous not just for tallest statue of Guru Padmasambhava at 137 feet but also, it has become famous for the glass skywalk that leads visitors to the statue. This glass skywalk offers thrilling views of the valley below and panoramic mountain vistas.
                     </p>
                     <div>
                         <table>
@@ -245,7 +245,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                                 <th class="w-1/4 text-xs md:text-sm ">Best Time</th>
                             </tr>
                             <tr>
-                                <td class="w-1/4 text-xs md:text-sm align-text-top">Giridih district, Jharkhand, India</td>
+                                <td class="w-1/4 text-xs md:text-sm align-text-top">Giridih district, Sikkim, India</td>
                                 <td class="w-1/4 text-xs md:text-sm align-text-top">24km From Your Location</td>
                                 <td class="w-1/4 text-xs md:text-sm align-text-top">May - Mar</td>
                             </tr>
@@ -585,7 +585,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                         <circle cx="12" cy="10" r="3" />
                     </svg>
-                    <span class="text-sm">Okhrey 10th mile west Jharkhand, India</span>
+                    <span class="text-sm">Okhrey 10th mile west Sikkim, India</span>
                 </div>
             </div>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="Logo_Title.png">
-    <title>Jharkhand TravelMate AI Guide</title>
+    <title>Sikkim TravelMate AI Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
@@ -313,7 +313,7 @@
           <span
             class="slogan bg-clip-text text-transparent bg-[#115d5d] drop-shadow-lg"
           >
-            JHARKHAND
+            Sikkim
           </span>
         </h1>
         <p
@@ -323,7 +323,7 @@
           AI-Powered Guide! Get instant recommendations for tribal heritage
           sites, magnificent waterfalls, wildlife sanctuaries, and cultural
           treasures. Ask anything, from Hundru Falls to Betla National Park, and
-          let AI enhance your Jharkhand journey! ✨
+          let AI enhance your Sikkim journey! ✨
         </p>
 
         <div class="flex space-x-2 mt-2 justify-center">
@@ -342,13 +342,13 @@
       <div class="quick-suggestions">
         <div
           class="suggestion-chip"
-          onclick="askQuestion('Best waterfalls in Jharkhand')"
+          onclick="askQuestion('Best waterfalls in Sikkim')"
         >
           🌊 Famous Waterfalls
         </div>
         <div
           class="suggestion-chip"
-          onclick="askQuestion('Tribal culture and heritage sites in Jharkhand')"
+          onclick="askQuestion('Tribal culture and heritage sites in Sikkim')"
         >
           🎭 Tribal Heritage
         </div>
@@ -360,19 +360,19 @@
         </div>
         <div
           class="suggestion-chip"
-          onclick="askQuestion('Wildlife sanctuaries in Jharkhand')"
+          onclick="askQuestion('Wildlife sanctuaries in Sikkim')"
         >
           🐅 Wildlife Parks
         </div>
         <div
           class="suggestion-chip"
-          onclick="askQuestion('Adventure activities in Jharkhand')"
+          onclick="askQuestion('Adventure activities in Sikkim')"
         >
           🏔️ Adventure Sports
         </div>
         <div
           class="suggestion-chip"
-          onclick="askQuestion('Traditional Jharkhand cuisine')"
+          onclick="askQuestion('Traditional Sikkim cuisine')"
         >
           🍛 Local Food
         </div>
@@ -386,7 +386,7 @@
           type="text"
           class="search-input"
           id="searchInput"
-          placeholder="Ask me anything about Jharkhand travel..."
+          placeholder="Ask me anything about Sikkim travel..."
         />
         <button class="send-btn" id="sendBtn">
           <i class="fas fa-paper-plane"></i>
@@ -399,10 +399,10 @@
         <div class="fancy-loader"></div>
         <div class="text-white text-center mt-4">
           <h3 class="text-xl font-bold">
-            Discovering Jharkhand's Treasures...
+            Discovering Sikkim's Treasures...
           </h3>
           <p class="mt-2">
-            Just a moment while I prepare your Jharkhand travel guide
+            Just a moment while I prepare your Sikkim travel guide
           </p>
         </div>
       </div>
@@ -501,21 +501,21 @@
         const promptTemplate = `
                 Time: ${currentTime}
                 User: TravelExplorer
-                Location: Jharkhand, India
+                Location: Sikkim, India
                 Query: ${query}
 
-                Please provide a comprehensive Jharkhand travel guide with the following sections:
+                Please provide a comprehensive Sikkim travel guide with the following sections:
                 📜 Historical Background
                 🏛️ Cultural Significance
                 🎉 Local Traditions and Festivals
-                🏰 Must-See Places in Jharkhand
+                🏰 Must-See Places in Sikkim
                 🌟 Nearby Attractions
                 🌟 Visitor Reviews and Experiences
                 📅 Best Time to Visit
-                🍴 Traditional Jharkhand Cuisine
+                🍴 Traditional Sikkim Cuisine
                 🛏️ Accommodation Options
                 🚌 Accessibility and Transportation
-                💡 Jharkhand Travel Tips
+                💡 Sikkim Travel Tips
                 🛡️ Safety Tips
                 🌿 Environmental Impact and Conservation
                 🗣️ Language and Communication (Hindi, Santhali, Ho, Mundari)
@@ -525,7 +525,7 @@
                 🛎️ Tourist Services and Facilities
                 🗺️ Maps and Route Planning
                 
-                Focus specifically on Jharkhand's unique attractions:
+                Focus specifically on Sikkim's unique attractions:
                 - Waterfalls: Hundru Falls, Dassam Falls, Jonha Falls, Hirni Falls
                 - Wildlife: Betla National Park, Palamau Tiger Reserve, Hazaribagh Wildlife Sanctuary
                 - Religious Sites: Baidyanath Dham (Deoghar), Rajrappa Temple, Parasnath Hills
@@ -535,7 +535,7 @@
                 - Industrial Tourism: Tata Steel Plant, coal mines
                 - Handicrafts: Dokra art, tribal paintings, bamboo crafts
 
-                Keep the information concise, accurate, and well-structured for Jharkhand tourism.
+                Keep the information concise, accurate, and well-structured for Sikkim tourism.
             `;
 
         const requestBody = {

@@ -49,12 +49,12 @@
     ?>
     <div class="max-w-7xl mx-auto px-6 py-12">
       <h1 class="title font-bold text-gray-700 mb-2 text-5xl text-center">
-        Discover Jharkhand: Your Gateway to Incredible Trips
+        Discover Sikkim: Your Gateway to Incredible Trips
       </h1>
       <p class="text-gray-600 text-xl font-serif px-20 text-center">
         Embark on a journey of a lifetime in the picturesque Narmada district.
         Whether you're seeking adventure, culture, or relaxation, our curated
-        trips offer unforgettable experiences in Jharkhand and beyond.
+        trips offer unforgettable experiences in Sikkim and beyond.
       </p>
 
       <div class="flex justify-center items-center gap-5 mb-16 font-serif">
@@ -86,14 +86,14 @@
         >
           <div class="tag"><i class="fas fa-tree"></i> Nature</div>
           <img
-            src="assets/img/places/Patratu_Valley.png"
+            src="assets/img/places/Tsomgo_Lake_Sikkim.png"
             alt="Statue of Unity"
             class="w-full h-48 object-cover"
           />
 
           <div class="p-6">
             <h2 class="text-xl font-bold text-gray-800 mb-2 uppercase">
-              BETLA NATIONAL PARK TOUR
+              TSOMGO LAKE TOUR
             </h2>
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-clock text-[#92c4c4] mr-1"></i>
@@ -102,14 +102,14 @@
 
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-plane-departure text-[#92c4c4] mr-1"></i>
-              Start: <b>Ranchi</b> | End: <b>Ranchi</b>
+              Start: <b>Gangtok</b> | End: <b>Gangtok</b>
             </p>
             <p class="text-sm text-gray-500 mb-4">
               <i class="fas fa-map-marker-alt text-[#92c4c4] mr-1"></i>
-              Famous Places: Betla National Park ● Palamu Fort ● Wildlife Safari
+              Famous Places: Tsomgo Lake ● Kyongnosla Alpine Sanctuary
             </p>
             <p class="text-lg font-bold text-gray-800 mb-4">
-              Price: <span class="text-[#92c4c4]">₹700</span> per person
+              Price: <span class="text-[#92c4c4]">₹1200</span> per person
             </p>
             <a
               href="#"
@@ -125,14 +125,14 @@
         >
           <div class="tag"><i class="fas fa-tree"></i> Nature</div>
           <img
-            src="assets/img/places/Parasnath_Hill.png"
+            src="assets/img/places/Lachung_sikkim.png"
             alt="Narmada River"
             class="w-full h-48 object-cover"
           />
 
           <div class="p-6">
             <h2 class="text-xl font-bold text-gray-800 mb-2 uppercase">
-              DEOGHAR TEMPLE & TRIKUT TOUR
+              LACHUNG TOUR
             </h2>
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-clock text-[#92c4c4] mr-1"></i>
@@ -140,14 +140,14 @@
             </p>
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-plane-departure text-[#92c4c4] mr-1"></i>
-              Start: <b>Deoghar</b> | End: <b>Deoghar</b>
+              Start: <b>Gangtok</b> | End: <b>Lachung</b>
             </p>
             <p class="text-sm text-gray-500 mb-4">
               <i class="fas fa-map-marker-alt text-[#92c4c4] mr-1"></i>
-              Famous Places: Baidyanath Jyotirlinga Temple ● Trikut Pahar ● Tapovan Caves
+              Famous Places: Yumthang Valley ● Zero Point ● Hot Springs
             </p>
             <p class="text-lg font-bold text-gray-800 mb-4">
-              Price: <span class="text-[#92c4c4]">₹950</span> per person
+              Price: <span class="text-[#92c4c4]">₹5,000</span> per person
             </p>
             <a
               href="#"
@@ -164,14 +164,14 @@
           <div class="tag"><i class="fas fa-tree"></i> Heritage</div>
 
           <img
-            src="assets/img/places/NETARHAT HILL STATION TOUR.jpeg"
-            alt="Rajpipla Palace"
+            src="assets/img/places/Pelling_Sikkim.png"
+            alt="pelling"
             class="w-full h-48 object-cover"
           />
 
           <div class="p-6">
             <h2 class="text-xl font-bold text-gray-800 mb-2 uppercase">
-              NETARHAT HILL STATION TOUR
+              PELLING TOUR
             </h2>
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-clock text-[#92c4c4] mr-1"></i>
@@ -179,14 +179,14 @@
             </p>
             <p class="text-sm text-gray-500 mb-2">
               <i class="fas fa-plane-departure text-[#92c4c4] mr-1"></i>
-              Start: <b>Ranchi</b> | End: <b>Ranchi</b>
+              Start: <b>Gangtok</b> | End: <b>Pelling</b>
             </p>
             <p class="text-sm text-gray-500 mb-4">
               <i class="fas fa-map-marker-alt text-[#92c4c4] mr-1"></i>
-              Famous Places: Netarhat Hills ● Magnolia Sunset Point ● Upper Ghaghri Falls ● Koel View Point
+              Famous Places: Pemayangtse Monastery ● Sky Walk ● Kanchenjunga Views
             </p>
             <p class="text-lg font-bold text-gray-800 mb-4">
-              Price: <span class="text-[#92c4c4]">₹1,300</span> per person
+              Price: <span class="text-[#92c4c4]">₹4,200</span> per person
             </p>
             <a
               href="#"

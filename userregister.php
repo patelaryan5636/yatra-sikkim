@@ -44,10 +44,10 @@
         <img src="yatra.png" alt="Illustration" class="w-32 md:w-48 h-32 md:h-48" />
       </a>
       <h2 class="text-black font-bold text-lg md:text-xl mt-4 text-center">
-        Discover Jharkhand’s Hidden Treasures
+        Discover Sikkim’s Hidden Treasures
       </h2>
       <p class="text-black text-sm text-center mt-2">
-        Join a vibrant community and explore Jharkhand’s breathtaking landscapes, tribal heritage, and unforgettable
+        Join a vibrant community and explore Sikkim’s breathtaking landscapes, tribal heritage, and unforgettable
         travel experiences.
       </p>
       <div class="flex space-x-2 mt-6 md:mt-10 justify-center">

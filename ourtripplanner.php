@@ -129,10 +129,9 @@
       ?>
   <div class="mt-16 mb-[-0.7rem] max-w-7xl mx-auto">
     <h1 class="title font-bold text-gray-700 mb-2 text-5xl text-center">
-      🌏 Discover & Explore: Travel Experiences in Jharkhand
-    </h1>
+      🌏 Discover & Explore: Travel Experiences in Sikkim    </h1>
     <p class="text-gray-600 text-xl font-serif px-20 text-center">
-      Unlock the hidden gems of Jharkhand – from ancient temples and lush forests
+      Unlock the hidden gems of Sikkim – from ancient temples and lush forests
       to vibrant festivals and adventure trails. Plan unforgettable journeys with
       expert-curated itineraries, local insights, and experiences that celebrate
       the rich culture and natural beauty of the state.
