@@ -89,7 +89,7 @@
             <!-- Video Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Video 1 -->
-                <a href="https://www.instagram.com/jharkhandtourism?igsh=ODZwdm90am96N3k0" target="_blank"
+                <a href="https://www.instagram.com/sikkim.tourism?igsh=MWRrb2hoMXczMXZ2aQ==" target="_blank"
                     rel="noopener noreferrer">
                     <div
                         class="relative overflow-hidden rounded-2xl bg-gray-900 shadow-video shadow-2xl transition-all duration-500 video-hover">
@@ -97,7 +97,7 @@
                             <video class="w-full h-full object-cover" poster="/api/placeholder/360/640" muted autoplay
                                 loop playsinline>
                                 <source
-                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759063148/Reel1_buxgsv.mp4"
+                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759148700/Reel1_a51nrq.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -105,7 +105,7 @@
                     </div>
                 </a>
 
-                <a href="https://www.instagram.com/jharkhandtourism?igsh=ODZwdm90am96N3k0" target="_blank"
+                <a href="https://www.instagram.com/sikkim.tourism?igsh=MWRrb2hoMXczMXZ2aQ==" target="_blank"
                     rel="noopener noreferrer">
                     <div
                         class="relative overflow-hidden rounded-2xl bg-gray-900 shadow-video shadow-2xl transition-all duration-500 video-hover">
@@ -113,14 +113,14 @@
                             <video class="w-full h-full object-cover" poster="/api/placeholder/360/640" muted autoplay
                                 loop playsinline>
                                 <source
-                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759063569/Reel2_l5b4hl.mp4"
+                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759148698/Reel2_smytay.mp4"
                                     type="video/mp4">
                             </video>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.instagram.com/jharkhandtourism?igsh=ODZwdm90am96N3k0" target="_blank"
+                <a href="https://www.instagram.com/sikkim.tourism?igsh=MWRrb2hoMXczMXZ2aQ==" target="_blank"
                     rel="noopener noreferrer">
                     <div
                         class="relative overflow-hidden rounded-2xl bg-gray-900 shadow-video shadow-2xl transition-all duration-500 video-hover">
@@ -128,14 +128,14 @@
                             <video class="w-full h-full object-cover" poster="/api/placeholder/360/640" muted autoplay
                                 loop playsinline>
                                 <source
-                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759063813/Reel3_vko56n.mp4"
+                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759148699/Reel3_n9rmrh.mp4"
                                     type="video/mp4">
                             </video>
                         </div>
                     </div>
                 </a>
 
-                <a href="https://www.instagram.com/jharkhandtourism?igsh=ODZwdm90am96N3k0" target="_blank"
+                <a href="https://www.instagram.com/sikkim.tourism?igsh=MWRrb2hoMXczMXZ2aQ==" target="_blank"
                     rel="noopener noreferrer">
                     <div
                         class="relative overflow-hidden rounded-2xl bg-gray-900 shadow-video shadow-2xl transition-all duration-500 video-hover">
@@ -143,7 +143,7 @@
                             <video class="w-full h-full object-cover" poster="/api/placeholder/360/640" muted autoplay
                                 loop playsinline>
                                 <source
-                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759063820/Reel4_flnitt.mp4"
+                                    src="https://res.cloudinary.com/dwm1amavn/video/upload/v1759148700/Reel4_txlvch.mp4"
                                     type="video/mp4">
                             </video>
                         </div>

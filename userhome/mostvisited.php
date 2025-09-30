@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jharkhand's Most Visited Destinations</title>
+    <title>Sikkim's Most Visited Destinations</title>
     <meta name="description"
-        content="Explore Jharkhand's breathtaking landscapes - from towering mountains to serene lakes and ancient monasteries.">
+        content="Explore Sikkim's breathtaking landscapes - from towering mountains to serene lakes and ancient monasteries.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2Pkf6t1QjwqWiMzMKi1e0MZt9DSCzUrtWvC2TbZj+9p0ua3r3r1N5x7w2g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -225,7 +225,7 @@
                 </div>
 
                 <h1 class="text-5xl font-bold mb-6 leading-tight">
-                    Unveiling Jharkhand's
+                    Unveiling Sikkim's
                     <span class="bg-gradient-to-r from-pink-500 via-red-500 via-yellow-400 via-green-400 to-blue-500 
             bg-clip-text text-transparent animated-gradient">
                         Most Visited
@@ -234,7 +234,7 @@
                 </h1>
 
                 <p class="text-muted max-w-full mx-auto text-xl leading-relaxed">
-                    Explore Jharkhand's breathtaking landscapes - from towering mountains to serene
+                    Explore Sikkim's breathtaking landscapes - from towering mountains to serene
                     lakes and ancient monasteries. Discover the top destinations that capture the
                     heart and soul of this Himalayan paradise.
                 </p>
@@ -243,43 +243,43 @@
             <!-- Filter Pills -->
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12 items-stretch">
 
-                <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
-           bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
-           animated-gradient">
-                    <div class="w-3 h-3 rounded-full bg-white flex items-center">
-                        <i class="fa-solid fa-map-location-dot" style="color: #56deb5;"></i>
-                    </div>
-                    <span>Top Destinations</span>
-                </button>
+          <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
+        bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
+        animated-gradient">
+                <div class="w-3 h-3 rounded-full bg-white flex items-center">
+                    <i class="fa-solid fa-map-location-dot" style="color: #56deb5;"></i>
+                </div>
+                <span>Top Destinations</span>
+          </button>
 
-                <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
-           bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
-           animated-gradient">
-                    <div class="w-3 h-3 rounded-full flex items-center">
-                        <i class="fa-solid fa-mountain" style="color: #56deb5;"></i>
-                    </div>
-                    <span>Majestic Mountains</span>
-                </button>
+          <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
+        bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
+        animated-gradient">
+                <div class="w-3 h-3 rounded-full flex items-center">
+                    <i class="fa-solid fa-mountain" style="color: #56deb5;"></i>
+                </div>
+                <span>Majestic Mountains</span>
+          </button>
 
-                <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
-           bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
-           animated-gradient">
-                    <div class="w-3 h-3 rounded-full flex items-center">
-                        <i class="fa-solid fa-water" style="color: #56deb5;"></i>
-                    </div>
-                    <span>Sacred Lakes</span>
-                </button>
+          <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
+        bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
+        animated-gradient">
+                <div class="w-3 h-3 rounded-full flex items-center">
+                    <i class="fa-solid fa-water" style="color: #56deb5;"></i>
+                </div>
+                <span>Sacred Lakes</span>
+          </button>
 
-                <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
-           bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
-           animated-gradient">
-                    <div class="w-3 h-3 rounded-full flex items-center">
-                        <i class="fa-solid fa-landmark" style="color: #56deb5;"></i>
-                    </div>
-                    <span>Cultural Heritage</span>
-                </button>
+          <button class="h-full cursor-auto flex items-center gap-4 justify-center px-6 py-3 rounded-full font-semibold shadow-md card 
+        bg-gradient-to-r from-pink-200/20 via-yellow-200/20 via-green-200/20 to-blue-200/20 
+        animated-gradient">
+                <div class="w-3 h-3 rounded-full flex items-center">
+                    <i class="fa-solid fa-place-of-worship" style="color: #56deb5;"></i>
+                </div>
+                <span>Ancient Monasteries</span>
+          </button>
 
-            </div>
+        </div>
 
 
 
@@ -293,56 +293,55 @@
     <script>
         // Destinations data
         const destinations = [
-            {
-                id: 1,
-                title: "Netarhat",
-                link: "./placedetail",
-                description: "Netarhat, nestled in West Jharkhand's Soreng District, is a charming destination famous for its vibrant rhododendron forests that burst into color during spring. Serving as the gateway to the iconic Sandakphu-Phalut trek, Hilley offers stunning mountain views and peaceful village life.",
-                image: "assets/img/places/Netarhat.png",
-                location: "From Gangtok: Approx 120km",
-                bestTime: "Mar - May",
-                duration: "2-4 days",
-                category: "Natural",
-                categoryColor: "natural"
-            },
-            {
-                id: 2,
-                title: "Patratu Valley",
-                link: "./placedetail",
-                description: "Patratu Valley also known as Tathagata Tsal was built to commemorate the 2550th birth anniversary of Gautam Buddha. The park is home to majestic statue depicting the Dhyana Chakra Mudra, offering a peaceful spiritual experience surrounded by beautiful landscaped gardens.",
-                image: "assets/img/places/Patratu_Valley.png",
-                location: "Approx 15 km from Ravangla",
-                bestTime: "Jan - Dec",
-                duration: "2-4 hours",
-                category: "Religious",
-                categoryColor: "heritage"
-            },
-            {
-                id: 3,
-                title: "Hundru Falls",
-                link: "./placedetail",
-                description: "Hundru Falls or Old Silk Route in East Jharkhand, lies on the historic Silk Route linking Tibet to India. Famous for its winding roads with 32 hairpin bends and scenic beauty, Zuluk offers breathtaking sunrise views over Kanchenjunga and a glimpse into ancient trade history.",
-                image: "assets/img/places/Hundru_Falls.png",
-                location: "From Gangtok: 95 km",
-                bestTime: "Nov - Feb",
-                duration: "2-3 days",
-                category: "Historical",
-                categoryColor: "historical"
-            },
-
-            {
-                id: 4,
-                title: "Parasnath Hill",
-                link: "./placedetail",
-                description: "Parasnath Hill in West Jharkhand famous not just for tallest statue of Guru Padmasambhava at 137 feet but also, it has become famous for the glass skywalk that leads visitors to the statue. This glass skywalk offers thrilling views of the valley below and panoramic mountain vistas.",
-                image: "assets/img/places/Parasnath_Hill.png",
-                location: "From Gangtok: Approx 115km",
-                bestTime: "Mar - May",
-                duration: "1-2 days",
-                category: "Adventure",
-                categoryColor: "adventure"
-            }
-        ];
+        {
+            id: 1,
+            title: "Gangtok",
+            link: "./placedetail",
+            description: "The vibrant capital of Sikkim, Gangtok is a bustling hill station offering stunning views of Mount Kanchenjunga. It's a hub for culture and commerce, famous for its serene monasteries, lively M.G. Marg, and as a base for exploring the state.",
+            image: "assets/img/places/Gangtok_Sikkim.png",
+            location: "Capital City of Sikkim",
+            bestTime: "Mar - Jun & Sep - Nov",
+            duration: "2-3 days",
+            category: "Cultural",
+            categoryColor: "heritage"
+        },
+        {
+            id: 2,
+            title: "Tsomgo Lake",
+            link: "./placedetail",
+            description: "Also known as Changu Lake, Tsomgo is a breathtaking glacial lake located at an altitude of 12,313 feet. It remains frozen during winter, and its crystal-clear waters reflect the surrounding snow-capped mountains, making it a must-visit natural wonder.",
+            image: "assets/img/places/Tsomgo_Lake_Sikkim.png",
+            location: "Approx 40km from Gangtok",
+            bestTime: "Apr - Jun & Oct - Dec",
+            duration: "Day Trip",
+            category: "Natural",
+            categoryColor: "natural"
+        },
+        {
+            id: 3,
+            title: "Pelling",
+            link: "./placedetail",
+            description: "Nestled in West Sikkim, Pelling is renowned for offering one of the most magnificent, up-close views of the Kanchenjunga range. It's a tranquil town, home to the ancient Pemayangtse Monastery and the historic Rabdentse Ruins.",
+            image: "assets/img/places/Pelling_Sikkim.png",
+            location: "Approx 115km from Gangtok",
+            bestTime: "Sep - May",
+            duration: "2-3 days",
+            category: "Scenic",
+            categoryColor: "adventure"
+        },
+        {
+            id: 4,
+            title: "Yumthang Valley",
+            link: "./placedetail",
+            description: "Famously known as the 'Valley of Flowers', Yumthang Valley is a stunning grazing pasture surrounded by Himalayan peaks. During spring, it's a riot of colors with countless rhododendrons blooming, making it a paradise for nature lovers.",
+            image: "assets/img/places/Yumthang_Valley_Sikkim.png",
+            location: "Approx 150km from Gangtok",
+            bestTime: "Feb - Jun",
+            duration: "1-2 days (from Lachung)",
+            category: "Natural",
+            categoryColor: "natural"
+        }
+    ];
 
         // State management
         let activeFilter = 'Top Destinations';
@@ -374,7 +373,7 @@
                             
                             <!-- Location at bottom -->
                             <!-- <div class="absolute bottom-3 left-3 bg-black bg-opacity-50 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-medium">
-                                Jharkhand, India
+                                Sikkim, India
                             </div> -->
                         </div>
 
@@ -382,7 +381,7 @@
                         <div class="flex-1 p-3 flex flex-col justify-between">
                             <!-- Title and Explore Button -->
                             <div class="flex items-start justify-between mb-4">
-                                <h3 class="text-xl title font-bold leading-tight hover:text-primary transition-colors">
+                                <h3 class="text-xl font-bold leading-tight hover:text-primary transition-colors">
                                     ${destination.title}
                                 </h3>
                                 <a href="${destination.link}" class="flex items-center gap-2 px-2 py-1 rounded-lg text-sm font-semibold shadow-md flex-shrink-0 border-2 border-${destination.categoryColor} btn-${destination.categoryColor} bg-gradient-to-r from-pink-300/20 via-yellow-300/20 to-green-300/20 text-gray-800 lg:bg-transparent lg:text-inherit animated-gradient">

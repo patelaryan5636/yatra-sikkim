@@ -83,27 +83,27 @@
 
     <script>
       const festivals = [
-        {
-          title: "SHRI HEMANT SOREN",
-          date: "Chief Minister, Jharkhand",
-          desc: "Shri Hemant Soren is an Indian politician and the current Chief Minister of Jharkhand. He is the leader of the Jharkhand Mukti Morcha (JMM), a political party in the state. He has been instrumental in leading various developmental and welfare initiatives for the people of Jharkhand.",
-        },
-        {
-          title: "SMT VIJAYA JADHAV, IAS",
-          date: "Director of Tourism, Department of Tourism, Arts, Culture, Sports & Youth Affairs",
-          desc: "As the current Director of Tourism, she plays a pivotal role in shaping Jharkhand’s tourism strategy. She has recently spearheaded initiatives to craft tailored tour packages, boost local engagement, and train guides to deeply connect visitors with the state’s natural beauty and cultural heritage.",
-        },
-        {
-          title: "SHRI ARUN KUMAR SINGH",
-          date: "Senior Manager, Jharkhand Tourism Development Corporation (JTDC)",
-          desc: "He is the in-charge and senior manager at Patratu Lake Resort, a prominent JTDC-run facility. His responsibilities include overseeing day-to-day operations, interfacing with private cruise operators, and ensuring the smooth functioning of resort activities.",
-        },
-        {
-          title: "SHRI MANOJ KUMAR, IAS",
-          date: "Secretary – Department of Tourism, Arts, Culture, Sports & Youth Affairs",
-          desc: "As the administrative head of the tourism department, he oversees policy formulation, inter-departmental coordination, budget allocations, and implementation of major tourism initiatives.",
-        }
-      ];
+      {
+        title: "SHRI PREM SINGH TAMANG (GOLAY)",
+        date: "Hon'ble Chief Minister & Minister-in-Charge, Tourism",
+        desc: "As the Chief Minister of Sikkim, he provides visionary leadership for the state's development, with a special focus on promoting sustainable and responsible tourism that showcases Sikkim's unique culture and pristine natural beauty on a global stage.",
+      },
+      {
+        title: "SHRI PRAKASH CHETTRI, SCS",
+        date: "Secretary, Tourism & Civil Aviation Department",
+        desc: "As the administrative head of the department, he is responsible for policy implementation, strategic planning, and overseeing all tourism-related activities. He plays a crucial role in enhancing infrastructure and ensuring a seamless experience for tourists.",
+      },
+      {
+        title: "SHRI LUKENDRA RASAILY",
+        date: "Chairman, Sikkim Tourism Development Corporation (STDC)",
+        desc: "He leads the STDC, the primary body for operating state-run tourism infrastructure like hotels, transport, and tour packages. His focus is on improving service quality and developing new tourism products to attract diverse travelers.",
+      },
+      {
+        title: "SHRI MARCUS P. RAI",
+        date: "Director, Tourism & Civil Aviation Department",
+        desc: "He manages the operational aspects of the tourism department, including marketing campaigns, permit issuance for protected areas, and coordination with travel industry stakeholders to ensure smooth and well-regulated tourism activities.",
+      }
+    ];
 
       let currentIndex = 0;
       const title = document.getElementById("festival-title");

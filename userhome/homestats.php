@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Government Schemes Dashboard</title>
+  <title>Sikkim Tourism Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <style>
@@ -24,57 +24,51 @@
 <body class="bg-gray-50 font-sans text-gray-800 mt-8">
   <div class="content-wrapper p-6">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-4">
-      <div class="bg-pink-100 rounded-xl p-6 shadow-md transition duration-300 hover:scale-105">
+      <div class="bg-orange-100 rounded-xl p-6 shadow-md transition duration-300 hover:scale-105">
         <div class="flex items-center justify-between mb-3">
-          <span class="text-sm bg-pink-50 text-pink-600 px-3 py-1 rounded-full font-semibold">● Culture &
-            Literature</span>
-          <i class="fa-solid fa-synagogue text-pink-600 text-2xl"></i>
+          <span class="text-sm bg-orange-50 text-orange-600 px-3 py-1 rounded-full font-semibold">● Monasteries &
+            Culture</span>
+          <i class="fa-solid fa-place-of-worship text-orange-600 text-2xl"></i>
         </div>
         <h3 class="text-lg font-bold mb-2">
-          Tribal Museum, Ranchi
+          Namgyal Institute of Tibetology
         </h3>
         <p class="text-sm text-gray-700 mb-3">
-          Discover Jharkhand’s vibrant tribal culture through traditional artifacts, folk art, and manuscripts that
-          showcase the state’s deep cultural and intellectual roots.
+          Explore a vast collection of rare Buddhist manuscripts, statues, and thangkas. Dive deep into Tibetan culture and Mahayana Buddhism in the heart of the Himalayas.
+        </p>
+        <p class="text-sm text-gray-800 mb-2">👥 100,000+ scholars & tourists visited
+        </p>
+        <a href="#" class="text-orange-700 font-semibold hover:underline">Learn more →</a>
+      </div>
 
+      <div class="bg-green-100 rounded-xl p-6 shadow-md transition duration-300 hover:scale-105">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-sm bg-green-50 text-green-600 px-3 py-1 rounded-full font-semibold">● Adventure & Trekking</span>
+          <i class="fa-solid fa-person-hiking text-green-600 text-2xl"></i>
+        </div>
+        <h3 class="text-lg font-bold mb-2">Himalayan Trekking Adventures</h3>
+        <p class="text-sm text-gray-700 mb-3">
+          Embark on breathtaking treks through rhododendron forests and high-altitude trails. Witness stunning views of Kanchenjunga and discover Sikkim's pristine natural beauty.
         </p>
-        <p class="text-sm text-gray-800 mb-2">👥 40,000+ visitors inspired
+        <p class="text-sm text-gray-800 mb-2">
+          👥 50,000+ trekkers explored the trails
         </p>
-        <a href="#" class="text-pink-700 font-semibold hover:underline">Learn more →</a>
+        <a href="#" class="text-green-700 font-semibold hover:underline">Learn more →</a>
       </div>
 
       <div class="bg-blue-100 rounded-xl p-6 shadow-md transition duration-300 hover:scale-105">
         <div class="flex items-center justify-between mb-3">
-          <span class="text-sm bg-blue-50 text-blue-600 px-3 py-1 rounded-full font-semibold">● Wildlife</span>
-          <i class="fa-solid fa-paw text-blue-600 text-2xl"></i>
+          <span class="text-sm bg-blue-50 text-blue-600 px-3 py-1 rounded-full font-semibold">● Permits &
+            Passes</span><i class="fa-solid fa-id-card text-blue-600 text-2xl"></i>
         </div>
-        <h3 class="text-lg font-bold mb-2">Jungle Safari Experience</h3>
+        <h3 class="text-lg font-bold mb-2">Protected Area Permits</h3>
         <p class="text-sm text-gray-700 mb-3">
-          Experience the wild beauty of Jharkhand through thrilling jungle
-          safaris—discover rare wildlife, lush forests, and adventure wrapped
-          in nature's charm.
+          Easily obtain permits online for visiting protected areas like Tsomgo Lake, Nathula Pass, and North Sikkim. Enjoy a seamless and hassle-free travel planning experience.
         </p>
         <p class="text-sm text-gray-800 mb-2">
-          👥 5+ lakh nature lovers explored
+          👥 200,000+ permits issued annually
         </p>
         <a href="#" class="text-blue-700 font-semibold hover:underline">Learn more →</a>
-      </div>
-
-      <div class="bg-purple-100 rounded-xl p-6 shadow-md transition duration-300 hover:scale-105">
-        <div class="flex items-center justify-between mb-3">
-          <span class="text-sm bg-purple-50 text-purple-600 px-3 py-1 rounded-full font-semibold">● Book
-            Festivals</span><i class="fa-solid fa-ticket text-purple-600 text-2xl"></i>
-        </div>
-        <h3 class="text-lg font-bold mb-2">Ticket Booking Experience</h3>
-        <p class="text-sm text-gray-700 mb-3">
-          Step into the world of literature and excitement with the Jharkhand
-          Book Festivals—immerse yourself in books, author sessions, and
-          literary discussions that ignite creativity and knowledge.
-        </p>
-        <p class="text-sm text-gray-800 mb-2">
-          👥 50,000+ People Alredy Book tickets
-        </p>
-        <a href="#" class="text-purple-700 font-semibold hover:underline">Learn more →</a>
       </div>
     </div>
 
@@ -85,8 +79,7 @@
         </div>
         <h3 class="text-xl font-semibold mb-2">Seamless Exploration</h3>
         <p class="text-gray-600">
-          Discover heritage sites, festivals, and local experiences with an
-          intuitive map and interactive interface.
+          Discover ancient monasteries, Himalayan vistas, and local experiences with an intuitive map and interactive interface.
         </p>
       </div>
 
@@ -96,8 +89,7 @@
         </div>
         <h3 class="text-xl font-semibold mb-2">Smart Trip Planner</h3>
         <p class="text-gray-600">
-          Plan your journey with AI-driven recommendations, custom routes, and
-          personalized trip packages.
+          Plan your high-altitude journeys with AI-driven recommendations, custom routes, and personalized trip packages.
         </p>
       </div>
 
@@ -107,7 +99,7 @@
         </div>
         <h3 class="text-xl font-semibold mb-2">Instant Bookings</h3>
         <p class="text-gray-600">
-          Easily book guided tours, stays, and transport options with secure,
+          Easily book guided tours, homestays, and transport options with secure,
           real-time confirmations.
         </p>
       </div>

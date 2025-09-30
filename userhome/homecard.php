@@ -228,40 +228,38 @@
           margin-bottom: 2rem;
         "
       >
-        Explore Jharkhand – Sacred Peaks, Waterfalls & Heritage
+        Explore Sikkim – Majestic Peaks, Ancient Monasteries & Sacred Lakes
       </h1>
       <div class="card__container">
-        <article class="card__article">
-          <img src="img/place.png" alt="image" class="card__img" />
+      <article class="card__article">
+        <img src="../assets/img/Places/Tsomgo_Lake_Sikkim.png" alt="image" class="card__img" />
 
-          <div class="card__data">
-  <span class="card__description">Jonha Falls, Ranchi, Jharkhand</span>
-  <h2 class="card__title">Experience the Serenity of Jonha Falls</h2>
-  <a href="#" class="card__button">Explore Nature Trails</a>
-</div>
+        <div class="card__data">
+          <span class="card__description">Tsomgo Lake, East Sikkim, Sikkim</span>
+          <h2 class="card__title">Witness the Magic of a Glacial Lake</h2>
+          <a href="#" class="card__button">Explore High-Altitude Wonders</a>
+        </div>
+      </article>
 
-        </article>
+      <article class="card__article">
+        <img src="../assets/img/Places/Gangtok_Sikkim.png" alt="image" class="card__img" />
+        <div class="card__data">
+          <span class="card__description">Rumtek Monastery, Gangtok, Sikkim</span>
+          <h2 class="card__title">Find Peace at Rumtek Monastery</h2>
+          <a href="#" class="card__button">Discover Buddhist Heritage</a>
+        </div>
+      </article>
 
-        <article class="card__article">
-          <img src="img/place2.png" alt="image" class="card__img" />
-          <div class="card__data">
-            <span class="card__description">Deoghar, Jharkhand</span>
-            <h2 class="card__title">Discover Baidyanath Jyotirlinga - Land of Faith</h2>
-            <a href="#" class="card__button">Explore Pilgrimage Routes</a>
-          </div>
-        </article>
+      <article class="card__article">
+        <img src="../assets/img/Places/Pelling_Sikkim.png" alt="image" class="card__img" />
 
-        <article class="card__article">
-          <img src="img/place3.png" alt="image" class="card__img" />
-
-          <div class="card__data">
-            <span class="card__description">Parasnath Hill, Giridih, Jharkhand</span>
-            <h2 class="card__title">Explore Parasnath - The Spiritual Peak</h2>
-            <a href="#" class="card__button">View Trails & Pilgrimages</a>
-          </div>
-
-        </article>
-      </div>
+        <div class="card__data">
+          <span class="card__description">Pelling, West Sikkim, Sikkim</span>
+          <h2 class="card__title">Gaze Upon Kanchenjunga's Majesty</h2>
+          <a href="#" class="card__button">View Himalayan Vistas</a>
+        </div>
+      </article>
+    </div>
     </div>
   </body>
 </html>

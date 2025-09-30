@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jharkhand Tourist Map - Component</title>
+  <title>Sikkim Tourist Map - Component</title>
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- <link
@@ -315,24 +315,23 @@
 
 <body>
   <h1 class="title font-bold text-gray-700 mb-2 text-5xl text-center mt-12">
-    explore & discover: jharkhand
+    explore & discover: sikkim
   </h1>
   <p class="text-gray-600 text-xl font-serif px-20 text-center">
-    Unearth the hidden gems and vibrant culture of Jharkhand. From ancient
-    temples nestled in serene hills to majestic waterfalls and diverse
-    wildlife sanctuaries, embark on a journey through its rich heritage and
-    natural beauty.
+    Immerse yourself in the Himalayan wonderland of Sikkim. From the awe-inspiring peaks of Kanchenjunga and serene
+    Buddhist monasteries to shimmering high-altitude lakes and lush valleys, embark on an unforgettable journey through
+    its vibrant culture and pristine landscapes.
   </p>
 
   <div class="flex justify-center items-center gap-5 mb-8 font-serif">
     <div class="px-3 py-4 mt-3 bg-orange-100 h-6 text-gray-600 font-medium rounded-lg flex items-center">
-      🎉 Festivals & Culture
+      🏔️ Himalayan Vistas
     </div>
     <div class="px-3 py-4 mt-3 bg-purple-100 h-6 text-gray-600 font-medium rounded-lg flex items-center">
-      🌱 Unveiling Nature
+      🙏 Monasteries & Culture
     </div>
     <div class="px-3 py-4 mt-3 bg-green-100 h-6 text-gray-600 font-medium rounded-lg flex items-center">
-      🏛 Heritage Sites
+      🏞️ Pristine Landscapes
     </div>
   </div>
 
@@ -419,7 +418,7 @@
 
     <div class="map-container">
       <div class="map-header">
-        <div class="map-title">Interactive Map of Jharkhand</div>
+        <div class="map-title">Interactive Map of Sikkim</div>
         <div class="map-controls">
           <button id="lock-btn" class="control-btn" onclick="toggleMapLock()">
             <i class="fas fa-lock"></i> Locked
@@ -896,7 +895,7 @@
       defaultLayer.addTo(map);
       markersLayer = L.layerGroup().addTo(map);
 
-      // ✅ ADD THIS PART (Jharkhand border)
+      // ✅ ADD THIS PART (Sikkim border)
       fetch("sikkim.geojson")
         .then(response => response.json())
         .then(data => {

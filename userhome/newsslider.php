@@ -43,7 +43,7 @@
       <div class="flex justify-between items-center mb-16 px-6">
         <div class="relative">
           <h2 class="title font-gloock text-5xl font-semibold md:text-5xl text-accent text-gray-600">
-            News & Updates – What’s New in Jharkhand
+            News & Updates – What’s New in Sikkim
             <div class="absolute -right-8 -top-8 w-16 h-16 bg-secondary/30 rounded-full blur-xl"></div>
           </h2>
         </div>
@@ -61,16 +61,14 @@
           <a href="#" class="min-w-[33.333%] px-4 carousel-slide">
             <div class="bg-[#f8f6f4] backdrop-blur-sm rounded-xl overflow-hidden shadow-lg">
               <div class="aspect-video">
-                <img src="./img/News2.jpg" alt="News 1" class="w-full h-full object-cover" />
+                <img src="../assets/img/Places/Nathula_Pass_Sikkim.png" alt="Nathula Pass News" class="w-full h-full object-cover" />
               </div>
               <div class="p-6">
                 <h3 class="font-sofia text-xl font-semibold text-accent mb-2 line-clamp-1">
-                  Pilgrimage Revival
+                  Border Tourism Boom
                 </h3>
                 <p class="text-gray-600 line-clamp-2">
-                  Jharkhand’s Parasnath Hill (Shikharji), where 20 of 24 Jain tirthankaras attained moksha, is
-                  witnessing renewed devotional footfall with improved trekking trails and facilities. Visitors now
-                  enjoy a blend of spirituality and serene forest surroundings.
+                  With the tourist season in full swing, Nathula Pass on the Indo-China border is seeing record visitor numbers. The thrilling high-altitude journey and patriotic atmosphere make it a top destination for travelers exploring East Sikkim.
                 </p>
               </div>
             </div>
@@ -78,14 +76,14 @@
           <a href="#" class="min-w-[33.333%] px-4 carousel-slide">
             <div class="bg-[#f8f6f4] backdrop-blur-sm rounded-xl overflow-hidden shadow-lg">
               <div class="aspect-video">
-                <img src="./img/News1.avif" alt="News 1" class="w-full h-full object-cover" />
+                <img src="../assets/img/Places/Yumthang_Valley_Sikkim.png" alt="Yumthang Valley News" class="w-full h-full object-cover" />
               </div>
               <div class="p-6">
                 <h3 class="font-sofia text-xl font-semibold text-accent mb-2 line-clamp-1">
-                  Monsoon Surge
+                  Valley in Full Bloom
                 </h3>
                 <p class="text-gray-600 line-clamp-2">
-                  A recent Independence Day weekend saw a surge in tourism across Ranchi and nearby spots like Jonha, Dassam, Hundru Falls, Patratu Valley, and Netarhat, as monsoon magic lured crowds for nature escapes.
+                  Yumthang Valley, Sikkim's famed 'Valley of Flowers', is currently a riot of color as rhododendrons are in full bloom. Trekkers and nature lovers are flocking to North Sikkim to witness this spectacular natural display.
                 </p>
               </div>
             </div>
@@ -93,14 +91,14 @@
           <a href="#" class="min-w-[33.333%] px-4 carousel-slide">
             <div class="bg-[#f8f6f4] backdrop-blur-sm rounded-xl overflow-hidden shadow-lg">
               <div class="aspect-video">
-                <img src="../assets/img/Places/Betla_National_Park.png" alt="News 1" class="w-full h-full object-cover" />
+                <img src="../assets/img/places/pelling_sikkim.png" alt="Pelling Skywalk News" class="w-full h-full object-cover" />
               </div>
               <div class="p-6">
                 <h3 class="font-sofia text-xl font-semibold text-accent mb-2 line-clamp-1">
-                  Wildlife Wonder
+                  Pelling's Glass Skywalk
                 </h3>
                 <p class="text-gray-600 line-clamp-2">
-                  Betla National Park, Jharkhand’s sole national park and tiger reserve, continues to attract wildlife enthusiasts with its lush forests, guided jeep safaris, and rich biodiversity.
+                  The Pelling Skywalk, India's first of its kind, continues to be a major crowd-puller. It offers thrilling views of the 137-feet tall Chenrezig statue and the surrounding Himalayan peaks, creating a unique experience for visitors.
                 </p>
               </div>
             </div>
@@ -108,14 +106,14 @@
           <a href="#" class="min-w-[33.333%] px-4 carousel-slide">
             <div class="bg-[#f8f6f4] backdrop-blur-sm rounded-xl overflow-hidden shadow-lg">
               <div class="aspect-video">
-                <img src="../assets/img/Places/Netarhat.png" alt="News 1" class="w-full h-full object-cover" />
+                <img src="../assets/img/Places/Yumthang_Valley_Sikkim.png" alt="Sikkim Homestay News" class="w-full h-full object-cover" />
               </div>
               <div class="p-6">
                 <h3 class="font-sofia text-xl font-semibold text-accent mb-2 line-clamp-1">
-                  Netarhat’s Dawn
+                  Green Tourism Push
                 </h3>
                 <p class="text-gray-600 line-clamp-2">
-                  Dubbed the ‘Queen of Chotanagpur’, Netarhat remains a top scenic hill station with captivating sunsets, dense forests, and cascading falls like Lodh and Ghaghri, making it a hilltop favorite all year.
+                  Sikkim is reinforcing its commitment to sustainable tourism by banning single-use plastic bottles in certain areas and promoting eco-friendly homestays. This initiative aims to preserve the state's pristine natural beauty.
                 </p>
               </div>
             </div>
@@ -123,14 +121,14 @@
           <a href="#" class="min-w-[33.333%] px-4 carousel-slide">
             <div class="bg-[#f8f6f4] backdrop-blur-sm rounded-xl overflow-hidden shadow-lg">
               <div class="aspect-video">
-                <img src="./img/News3.jpg" alt="News 1" class="w-full h-full object-cover" />
+                <img src="../assets/img/festivals/saga-dawa-festival_sikkim.png" alt="Rumtek Monastery News" class="w-full h-full object-cover" />
               </div>
               <div class="p-6">
                 <h3 class="font-sofia text-xl font-semibold text-accent mb-2 line-clamp-1">
-                  Tourism Trends Up
+                  Saga Dawa Preparations
                 </h3>
                 <p class="text-gray-600 line-clamp-2">
-                  The state tourism department has launched curated travel packages and local guide training programs for hotspots like Netarhat and Betla, aiming to elevate Jharkhand’s visibility and economic benefits
+                  Monasteries across Sikkim, including the famous Rumtek Monastery, are preparing for the upcoming Saga Dawa festival. This sacred event celebrates Buddha's life and will feature grand processions and prayers.
                 </p>
               </div>
             </div>

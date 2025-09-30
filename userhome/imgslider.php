@@ -158,7 +158,7 @@
 <body>
   <div class="main-content">
     <h2 class="text-gray-800 text-6xl font-bold mb-4">
-      Pick Your Trail Explore Jharkhand as per Your Interest
+      Pick Your Trail Explore Sikkim as per Your Interest
     </h2>
 
     <div class="swiper mySwiper">
@@ -166,14 +166,15 @@
         <div class="swiper-slide">
           <div class="card">
             <div class="card-front">
-              <img src="../assets/img/Places/Parasnath_Hill.png" alt="Narmada View 1"
+              <img src="../assets/img/Places/Gangtok_Sikkim.png" alt="Gangtok View"
                 class="w-full h-full object-cover" />
             </div>
             <div class="card-back">
-              <h3 class="place-title">Parasnath Hill</h3>
+              <h3 class="place-title">Gangtok</h3>
               <p class="place-description">
-                Also known as Sammed Shikharji, this sacred hill is the highest peak in Jharkhand. It's a major
-                pilgrimage site where 20 of the 24 Jain Tirthankaras are believed to have attained salvation.
+                Explore the vibrant capital of Sikkim, a perfect blend of tradition and modernity. Gangtok offers
+                breathtaking views of Kanchenjunga, serene monasteries like Rumtek, and the bustling, pedestrian-only
+                M.G. Marg.
               </p>
             </div>
           </div>
@@ -182,14 +183,15 @@
         <div class="swiper-slide">
           <div class="card">
             <div class="card-front">
-              <img src="../assets/img/Places/Patratu_Valley.png" alt="Narmada View 2"
+              <img src="../assets/img/Places/Tsomgo_Lake_Sikkim.png" alt="Tsomgo Lake View"
                 class="w-full h-full object-cover" />
             </div>
             <div class="card-back">
-              <h3 class="place-title">Patratu Valley</h3>
+              <h3 class="place-title">Tsomgo Lake</h3>
               <p class="place-description">
-                Experience the breathtaking scenery of Patratu Valley. This scenic spot is famous for its picturesque
-                winding roads and the tranquil Patratu Dam, which creates a stunning reservoir amidst the hills.
+                Discover the ethereal beauty of Tsomgo Lake, a sacred glacial lake perched at 12,313 feet. Frozen in
+                winter and surrounded by alpine flowers in summer, it offers stunning reflections and memorable yak
+                rides.
               </p>
             </div>
           </div>
@@ -198,14 +200,15 @@
         <div class="swiper-slide">
           <div class="card">
             <div class="card-front">
-              <img src="../assets/img/Places/Hundru_Falls.png" alt="Narmada View 3"
+              <img src="../assets/img/Places/Nathula_Pass_Sikkim.png" alt="Nathula Pass View"
                 class="w-full h-full object-cover" />
             </div>
             <div class="card-back">
-              <h3 class="place-title">Hundru Falls</h3>
+              <h3 class="place-title">Nathula Pass</h3>
               <p class="place-description">
-                Witness the raw power of Hundru Falls, where the Subarnarekha River plunges over 300 feet. The dramatic
-                cascade, surrounded by lush greenery, is one of Jharkhand's most famous and spectacular natural wonders.
+                Journey to the historic Nathula Pass on the Indo-China border, a former trade route on the ancient Silk
+                Road. This high-altitude pass at 14,140 feet offers a thrilling experience and a glimpse into a
+                strategic border landscape.
               </p>
             </div>
           </div>
@@ -214,30 +217,15 @@
         <div class="swiper-slide">
           <div class="card">
             <div class="card-front">
-              <img src="../assets/img/Places/Netarhat.png" alt="Narmada View 3" class="w-full h-full object-cover" />
-            </div>
-            <div class="card-back">
-              <h3 class="place-title">Netarhat</h3>
-              <p class="place-description">
-                Description: Known as the "Queen of Chotanagpur," Netarhat is a serene hill station. It is renowned for
-                its panoramic views of sunrise and sunset, dense pine forests, and cool, pleasant climate.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="card">
-            <div class="card-front">
-              <img src="../assets/img/Places/Betla_National_Park.png" alt="Narmada View 3"
+              <img src="../assets/img/Places/Pelling_Sikkim.png" alt="Pelling View"
                 class="w-full h-full object-cover" />
             </div>
             <div class="card-back">
-              <h3 class="place-title">Betla National Park</h3>
+              <h3 class="place-title">Pelling</h3>
               <p class="place-description">
-                Explore the diverse wildlife of Betla National Park, one of India's oldest tiger reserves. This park is
-                home to a wide variety of animals, including tigers, elephants, and leopards, and is a great destination
-                for a jungle safari.
+                Witness the majestic, up-close vistas of the Kanchenjunga range from Pelling. This tranquil town is home
+                to the ancient Pemayangtse Monastery and the historic Rabdentse Ruins, offering a perfect mix of nature
+                and heritage.
               </p>
             </div>
           </div>
@@ -246,14 +234,32 @@
         <div class="swiper-slide">
           <div class="card">
             <div class="card-front">
-              <img src="../assets/img/Places/Jonha_Falls.png" alt="Narmada View 3" class="w-full h-full object-cover" />
+              <img src="../assets/img/Places/Lachung_sikkim.png" alt="Lachung View"
+                class="w-full h-full object-cover" />
             </div>
             <div class="card-back">
-              <h3 class="place-title">Jonha Falls</h3>
+              <h3 class="place-title">Lachung</h3>
               <p class="place-description">
-                Visit Jonha Falls, also known as Gautamdhara, where the Raru River cascades down a flight of steps. The
-                serene environment and a nearby Buddhist temple make this a popular spot for both nature lovers and
-                spiritual seekers.
+                Escape to the picturesque mountain village of Lachung in North Sikkim. Known for its stunning
+                waterfalls, apple orchards, and the historic Lachung Monastery, it serves as the gateway to the
+                enchanting Yumthang Valley.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-front">
+              <img src="../assets/img/Places/Yumthang_Valley_Sikkim.png" alt="Yumthang Valley View"
+                class="w-full h-full object-cover" />
+            </div>
+            <div class="card-back">
+              <h3 class="place-title">Yumthang Valley</h3>
+              <p class="place-description">
+                Wander through the 'Valley of Flowers' at Yumthang. Famous for its spectacular bloom of native
+                rhododendrons during the spring season, this valley is a paradise with its meandering river and
+                surrounding snow-capped peaks.
               </p>
             </div>
           </div>

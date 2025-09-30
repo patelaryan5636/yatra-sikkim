@@ -33,7 +33,7 @@
           <h2
             class="title font-gloock text-5xl font-semibold md:text-5xl text-accent text-gray-600"
           >
-            Latest Jobs - Business Opportunities in Jharkhand
+            Latest Jobs - Business Opportunities in Sikkim
             <div
               class="absolute -right-8 -top-8 w-16 h-16 bg-secondary/30 rounded-full blur-xl"
             ></div>
