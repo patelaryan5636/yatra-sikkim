@@ -305,23 +305,56 @@
                     <a href="./userpost" class="block hover:text-gray-800 transition-colors">Posts</a>
                 </li>
                 <li class="relative group hover-underline">
+                    <a href="#" class="block hover:text-gray-800 transition-colors">AI GUIDE ▼</a>
+                    <ul class="absolute left-0 w-auto pb-2 bg-[#C4DFDF] text-gray-600 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 shadow-lg z-50">
+                        <li>
+                            <a href="./chatbot" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">AI Guide</a>
+                        </li>
+                        <li>
+                            <a href="./aitrip-planner" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">AI Trip-Planner</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="relative group hover-underline">
+                    <a href="#" class="block hover:text-gray-800 transition-colors">Explore Packages ▼</a>
+                    <ul class="absolute left-0 w-auto pb-2 bg-[#C4DFDF] text-gray-600 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 shadow-lg z-50">
+                        <li>
+                            <a href="tripplanercard" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">Tour & Packages</a>
+                        </li>
+                        <li>
+                            <a href="ourtripplanner" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">Travel Experts</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li class="relative group hover-underline">
                     <a href="./chatbot" class="block hover:text-gray-800 transition-colors">AI Guide</a>
                 </li>
                 <li class="relative group hover-underline">
                     <a href="./aitrip-planner" class="block hover:text-gray-800 transition-colors">AI Trip-Planner</a>
-                </li>
-                <li class="relative group hover-underline">
+                </li> -->
+                <!-- <li class="relative group hover-underline">
                     <a href="tripplanercard" class="block hover:text-gray-800 transition-colors">Tour & Packages</a>
-                </li>
+                </li> -->
                 <li class="relative group hover-underline">
+                    <a href="#" class="block hover:text-gray-800 transition-colors">Plan Your Visit ▼</a>
+                    <ul class="absolute left-0 w-auto pb-2 bg-[#C4DFDF] text-gray-600 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 shadow-lg z-50">
+                        <li>
+                            <a href="./map" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">MAP</a>
+                        </li>
+                        <li>
+                            <a href="./busdetails" class="block px-4 py-2 rounded-lg hover:bg-[#E3F4F4] transition-colors">Find Routes</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li class="relative group hover-underline">
                     <a href="./map" class="block hover:text-gray-800 transition-colors">Map</a>
                 </li>
                 <li class="relative group hover-underline">
                     <a href="./busdetails" class="block hover:text-gray-800 transition-colors">Find Routes</a>
-                </li>
-                <li class="relative group hover-underline">
+                </li> -->
+                <!-- <li class="relative group hover-underline">
                     <a href="ourtripplanner" class="block hover:text-gray-800 transition-colors">Travel Experts</a>
-                </li>
+                </li> -->
                 <li class="relative group hover-underline">
                     <a href="contact-us" class="block hover:text-gray-800 transition-colors">Contact Us</a>
                 </li>
