@@ -285,6 +285,9 @@
                     <a href="./jobcards" class="block hover:text-gray-800 transition-colors">Job & Opp</a>
                 </li>
                 <li class="relative group hover-underline">
+                    <a href="https://weather-gandiv-sih.vercel.app/" class="block hover:text-gray-800 transition-colors">Weather</a>
+                </li>
+                <li class="relative group hover-underline">
                     <a href="#" class="block hover:text-gray-800 transition-colors">Bookings ▼</a>
                     <ul class="absolute left-0 w-auto pb-2 bg-[#C4DFDF] text-gray-600 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 shadow-lg z-50">
                         <li>
