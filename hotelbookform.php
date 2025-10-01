@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
   require_once './includes/scripts/connection.php';
 
   //                     Login required

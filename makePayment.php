@@ -3,6 +3,7 @@
 session_start();
 require_once './includes/scripts/connection.php';
 
+
 // ✅ Check for encrypted hotel_id
 if (!isset($_GET['id'])) {
     header("location: hotellist");
