@@ -1,53 +1,69 @@
-# Yatra-Sikkim 🚀
+# 🌄 Yatra-Sikkim
 
-Welcome to **Yatra-Sikkim**, a travel/tourism project focused on showcasing the beautiful region of Sikkim, India.
-
-## Table of Contents
-1. [About](#about)  
-2. [Features](#features)  
-3. [Tech Stack](#tech-stack)  
-4. [Getting Started](#getting-started)  
-5. [Usage](#usage)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)  
+Welcome to **Yatra-Sikkim**, a PHP-based travel and tourism web application dedicated to exploring the natural beauty, culture, and adventure of **Sikkim, India**.
 
 ---
 
-## About  
-Yatra-Sikkim is a web / mobile application (adjust as per your project) to help travellers explore Sikkim – its scenic destinations, local experiences, travel itineraries, and more.  
-The aim is to provide an intuitive, engaging platform for planning trips, discovering hidden gems, and making travel easy and memorable in Sikkim.
+## 📖 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-## Features  
-- Browse top destinations in Sikkim with photos and descriptions.  
-- Pre-built itineraries for 3-5 day, 7-10 day trips.  
-- Filter by interests: nature, adventure, culture, relaxation.  
-- Bookings or enquiries for tours/accommodation (if implemented).  
-- Responsive design to work on desktop & mobile.  
-- (Add any other key features your project has).
+## 🧭 About
+
+**Yatra-Sikkim** is built to make traveling to Sikkim easier and more interactive.  
+It allows users to:
+- Explore famous destinations
+- Discover trip itineraries
+- View hotel and package details
+- Book tours (if integrated)
+- Learn about Sikkim’s culture, food, and local attractions  
+
+This project demonstrates full-stack PHP development — combining dynamic backend logic with a responsive frontend design.
 
 ---
 
-## Tech Stack  
-- **Frontend:** e.g., React / Vue / Angular / plain HTML-CSS-JS (adjust)  
-- **Backend:** e.g., Node.js / Express / PHP / Laravel (adjust)  
-- **Database:** e.g., MySQL / MongoDB / Firebase (adjust)  
-- **Deployment:** e.g., Netlify / Heroku / AWS (adjust)  
-- **Other tools:** e.g., Bootstrap / Tailwind CSS, Axios / Fetch API, Map APIs, etc.
+## ✨ Features
+- 🏔️ Explore top destinations across Sikkim  
+- 🧳 Dynamic tour packages & itineraries  
+- 🔍 Search and filter by category, duration, or price  
+- 🏨 Accommodation & travel recommendations  
+- 📸 Image gallery and cultural highlights  
+- 🔐 User authentication (login/register)  
+- 📧 Contact and enquiry form  
+- ⚙️ Admin panel for managing destinations and bookings (optional)  
+- 📱 Responsive mobile-friendly interface  
 
 ---
 
-## Getting Started  
+## 🧰 Tech Stack
 
-### Prerequisites  
-- [Node.js](https://nodejs.org/) (version XX or higher)  
-- Yarn or npm  
-- (Any other requirement, e.g., PHP, Composer, MySQL)  
+### 💻 Backend
+- **PHP 8.x**
+- **MySQL** (Database)
+- **Apache / Nginx** (Web Server)
+- **Composer** (for dependency management)
 
-### Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/<your-username>/yatra-sikkim.git
-   cd yatra-sikkim
+### 🎨 Frontend
+- **HTML5**, **CSS3**, **JavaScript**
+- **Bootstrap 5** / **Tailwind CSS** (responsive UI)
+- **AJAX** for dynamic interactions
+
+### ⚙️ Tools & Libraries
+- **PHPMailer** – for contact form & booking emails  
+- **dotenv** – for managing environment variables  
+- **PDO / MySQLi** – for secure database connections  
+- **Font Awesome** – for icons  
+
+---
+
+## 🗂️ Project Structure
