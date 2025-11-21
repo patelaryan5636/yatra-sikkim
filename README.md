@@ -62,8 +62,6 @@ This project demonstrates full-stack PHP development — combining dynamic backe
 - **PHPMailer** – for contact form & booking emails  
 - **dotenv** – for managing environment variables  
 - **PDO / MySQLi** – for secure database connections  
-- **Font Awesome** – for icons  
-
----
+- **Font Awesome** – for icons
 
 ## 🗂️ Project Structure
